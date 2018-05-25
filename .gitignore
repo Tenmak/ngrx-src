@@ -48,6 +48,7 @@ __build__/**
 
 #doc
 /doc
+/documentation
 
 # IDE #
 .idea/

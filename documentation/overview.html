@@ -1,0 +1,1574 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>NGRX</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	      <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">NGRX</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">NGRX</a>
+        </li>
+
+        <li class="divider"></li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                            <a href="changelog.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="contributing.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="license.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-additional-pages"
+                >
+                <span class="fa fa-fw fa-book"></span>
+                <span>Additional documentation</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-additional-pages"
+                >
+                    <li class="link ">
+                        <a href="additional-documentation/procédure-d&#x27;installation.html" data-type="entity-link" data-context-id="additional">Procédure d&#x27;installation</a>
+                    </li>
+                    <li class="link ">
+                        <a href="additional-documentation/environnement-technique.html" data-type="entity-link" data-context-id="additional">Environnement technique</a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#xs-modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="xs-modules-links"
+                >
+                    <li class="link">
+                        <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+                                    >
+                                        <li class="link">
+                                            <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/AuthModule.html" data-type="entity-link">AuthModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/BooksModule.html" data-type="entity-link">BooksModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                        <li class="link">
+                                            <a href="components/CollectionPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">CollectionPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FindBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FindBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/SelectedBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">SelectedBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/ViewBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">ViewBookPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                    <span class="fa fa-fw fa-long-arrow-down"></span>
+                                    <span>Injectables</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                        <li class="link">
+                                            <a href="injectables/BookExistsGuard.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules"}>BookExistsGuard</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/ComponentsModule.html" data-type="entity-link">ComponentsModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/CoreModule.html" data-type="entity-link">CoreModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/MaterialModule.html" data-type="entity-link">MaterialModule</a>
+                    </li>
+                    <li class="link">
+                        <a href="modules/PipesModule.html" data-type="entity-link">PipesModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+                                    >
+                                    <span class="fa fa-fw fa-plus"></span>
+                                    <span>Pipes</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+                                    >
+                                        <li class="link">
+                                            <a href="pipes/AddCommasPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AddCommasPipe</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="pipes/EllipsisPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">EllipsisPipe</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/RootAuthModule.html" data-type="entity-link">RootAuthModule</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#xs-components-links"
+                        >
+                        <span class="fa fa-fw fa-cogs"></span>
+                        <span>Components</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="xs-components-links"
+                        >
+                            <li class="link">
+                                <a href="components/AppComponent.html" data-type="entity-link">AppComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookAuthorsComponent.html" data-type="entity-link">BookAuthorsComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookDetailComponent.html" data-type="entity-link">BookDetailComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewComponent.html" data-type="entity-link">BookPreviewComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewListComponent.html" data-type="entity-link">BookPreviewListComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookSearchComponent.html" data-type="entity-link">BookSearchComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/LayoutComponent.html" data-type="entity-link">LayoutComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NavItemComponent.html" data-type="entity-link">NavItemComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NotFoundPageComponent.html" data-type="entity-link">NotFoundPageComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/SidenavComponent.html" data-type="entity-link">SidenavComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/ToolbarComponent.html" data-type="entity-link">ToolbarComponent</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-classes-links"
+                >
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-classes-links"
+                >
+                    <li class="link">
+                        <a href="classes/AddBook.html" data-type="entity-link">AddBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookFail.html" data-type="entity-link">AddBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookSuccess.html" data-type="entity-link">AddBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CloseSidenav.html" data-type="entity-link">CloseSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CustomRouterStateSerializer.html" data-type="entity-link">CustomRouterStateSerializer</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadFail.html" data-type="entity-link">LoadFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadSuccess.html" data-type="entity-link">LoadSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Login.html" data-type="entity-link">Login</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginFailure.html" data-type="entity-link">LoginFailure</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginRedirect.html" data-type="entity-link">LoginRedirect</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginSuccess.html" data-type="entity-link">LoginSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Logout.html" data-type="entity-link">Logout</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/OpenSidenav.html" data-type="entity-link">OpenSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBook.html" data-type="entity-link">RemoveBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookFail.html" data-type="entity-link">RemoveBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookSuccess.html" data-type="entity-link">RemoveBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Search.html" data-type="entity-link">Search</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchComplete.html" data-type="entity-link">SearchComplete</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchError.html" data-type="entity-link">SearchError</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Select.html" data-type="entity-link">Select</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#xs-injectables-links"
+                        >
+                        <span class="fa fa-fw fa-long-arrow-down"></span>
+                        <span>Injectables</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="xs-injectables-links"
+                        >
+                            <li class="link">
+                                <a href="injectables/AuthEffects.html" data-type="entity-link">AuthEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthGuard.html" data-type="entity-link">AuthGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthService.html" data-type="entity-link">AuthService</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookEffects.html" data-type="entity-link">BookEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookExistsGuard.html" data-type="entity-link">BookExistsGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/CollectionEffects.html" data-type="entity-link">CollectionEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/GoogleBooksService.html" data-type="entity-link">GoogleBooksService</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-interfaces-links"
+                >
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-interfaces-links"
+                >
+                    <li class="link">
+                        <a href="interfaces/AuthState.html" data-type="entity-link">AuthState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Authenticate.html" data-type="entity-link">Authenticate</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Book.html" data-type="entity-link">Book</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/BooksState.html" data-type="entity-link">BooksState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/RouterStateUrl.html" data-type="entity-link">RouterStateUrl</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/User.html" data-type="entity-link">User</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-miscellaneous-links"
+                >
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-miscellaneous-links"
+                >
+                    <li class="link">
+                      <a href="miscellaneous/enumerations.html" data-type="entity-link">Enums</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/functions.html" data-type="entity-link">Functions</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                            <img data-src="images/compodoc-vectorise.svg" class="img-responsive" data-type="compodoc-logo">
+                </a>
+        </li>
+
+    </ul>
+
+</nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">NGRX</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                            <a href="changelog.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="contributing.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="license.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#additional-pages"
+>
+                <span class="fa fa-fw fa-book"></span>
+                <span>Additional documentation</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="additional-pages"
+>
+                    <li class="link ">
+                        <a href="additional-documentation/procédure-d&#x27;installation.html" data-type="entity-link" data-context-id="additional">Procédure d&#x27;installation</a>
+                    </li>
+                    <li class="link ">
+                        <a href="additional-documentation/environnement-technique.html" data-type="entity-link" data-context-id="additional">Environnement technique</a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+>
+                                        <li class="link">
+                                            <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/AuthModule.html" data-type="entity-link">AuthModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/BooksModule.html" data-type="entity-link">BooksModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                        <li class="link">
+                                            <a href="components/CollectionPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">CollectionPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FindBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FindBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/SelectedBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">SelectedBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/ViewBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">ViewBookPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                    <span class="fa fa-fw fa-long-arrow-down"></span>
+                                    <span>Injectables</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                        <li class="link">
+                                            <a href="injectables/BookExistsGuard.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules"}>BookExistsGuard</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/ComponentsModule.html" data-type="entity-link">ComponentsModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/CoreModule.html" data-type="entity-link">CoreModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/MaterialModule.html" data-type="entity-link">MaterialModule</a>
+                    </li>
+                    <li class="link">
+                        <a href="modules/PipesModule.html" data-type="entity-link">PipesModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+>
+                                    <span class="fa fa-fw fa-plus"></span>
+                                    <span>Pipes</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+>
+                                        <li class="link">
+                                            <a href="pipes/AddCommasPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AddCommasPipe</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="pipes/EllipsisPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">EllipsisPipe</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/RootAuthModule.html" data-type="entity-link">RootAuthModule</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#components-links"
+>
+                        <span class="fa fa-fw fa-cogs"></span>
+                        <span>Components</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="components-links"
+>
+                            <li class="link">
+                                <a href="components/AppComponent.html" data-type="entity-link">AppComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookAuthorsComponent.html" data-type="entity-link">BookAuthorsComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookDetailComponent.html" data-type="entity-link">BookDetailComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewComponent.html" data-type="entity-link">BookPreviewComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewListComponent.html" data-type="entity-link">BookPreviewListComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookSearchComponent.html" data-type="entity-link">BookSearchComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/LayoutComponent.html" data-type="entity-link">LayoutComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NavItemComponent.html" data-type="entity-link">NavItemComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NotFoundPageComponent.html" data-type="entity-link">NotFoundPageComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/SidenavComponent.html" data-type="entity-link">SidenavComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/ToolbarComponent.html" data-type="entity-link">ToolbarComponent</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#classes-links"
+>
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="classes-links"
+>
+                    <li class="link">
+                        <a href="classes/AddBook.html" data-type="entity-link">AddBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookFail.html" data-type="entity-link">AddBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookSuccess.html" data-type="entity-link">AddBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CloseSidenav.html" data-type="entity-link">CloseSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CustomRouterStateSerializer.html" data-type="entity-link">CustomRouterStateSerializer</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadFail.html" data-type="entity-link">LoadFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadSuccess.html" data-type="entity-link">LoadSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Login.html" data-type="entity-link">Login</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginFailure.html" data-type="entity-link">LoginFailure</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginRedirect.html" data-type="entity-link">LoginRedirect</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginSuccess.html" data-type="entity-link">LoginSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Logout.html" data-type="entity-link">Logout</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/OpenSidenav.html" data-type="entity-link">OpenSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBook.html" data-type="entity-link">RemoveBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookFail.html" data-type="entity-link">RemoveBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookSuccess.html" data-type="entity-link">RemoveBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Search.html" data-type="entity-link">Search</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchComplete.html" data-type="entity-link">SearchComplete</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchError.html" data-type="entity-link">SearchError</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Select.html" data-type="entity-link">Select</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#injectables-links"
+>
+                        <span class="fa fa-fw fa-long-arrow-down"></span>
+                        <span>Injectables</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="injectables-links"
+>
+                            <li class="link">
+                                <a href="injectables/AuthEffects.html" data-type="entity-link">AuthEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthGuard.html" data-type="entity-link">AuthGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthService.html" data-type="entity-link">AuthService</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookEffects.html" data-type="entity-link">BookEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookExistsGuard.html" data-type="entity-link">BookExistsGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/CollectionEffects.html" data-type="entity-link">CollectionEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/GoogleBooksService.html" data-type="entity-link">GoogleBooksService</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#interfaces-links"
+>
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="interfaces-links"
+>
+                    <li class="link">
+                        <a href="interfaces/AuthState.html" data-type="entity-link">AuthState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Authenticate.html" data-type="entity-link">Authenticate</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Book.html" data-type="entity-link">Book</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/BooksState.html" data-type="entity-link">BooksState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/RouterStateUrl.html" data-type="entity-link">RouterStateUrl</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/User.html" data-type="entity-link">User</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="miscellaneous/enumerations.html" data-type="entity-link">Enums</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/functions.html" data-type="entity-link">Functions</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                            <img data-src="images/compodoc-vectorise.svg" class="img-responsive" data-type="compodoc-logo">
+                </a>
+        </li>
+
+    </ul>
+
+</nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content overview">
+                   <div class="content-data">
+
+
+<ol class="breadcrumb">
+    <li>Overview</li>
+</ol>
+            <div class="text-center module-graph-container">
+                <div id="module-graph-svg">
+                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: dependencies Pages: 1 -->
+<svg width="2055pt" height="363pt"
+ viewBox="0.00 0.00 2055.00 363.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 359)">
+<title>dependencies</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-359 2051,-359 2051,4 -4,4"/>
+<text text-anchor="start" x="1002.5091" y="-42.4" font-family="sans-serif" font-weight="bold" font-size="14.00" fill="#000000">Legend</text>
+<polygon fill="#ffffb3" stroke="transparent" points="789.5,-10 789.5,-30 809.5,-30 809.5,-10 789.5,-10"/>
+<text text-anchor="start" x="813.129" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Declarations</text>
+<polygon fill="#8dd3c7" stroke="transparent" points="902.5,-10 902.5,-30 922.5,-30 922.5,-10 902.5,-10"/>
+<text text-anchor="start" x="926.2251" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Module</text>
+<polygon fill="#80b1d3" stroke="transparent" points="988.5,-10 988.5,-30 1008.5,-30 1008.5,-10 988.5,-10"/>
+<text text-anchor="start" x="1012.2812" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Bootstrap</text>
+<polygon fill="#fdb462" stroke="transparent" points="1085.5,-10 1085.5,-30 1105.5,-30 1105.5,-10 1085.5,-10"/>
+<text text-anchor="start" x="1109.1732" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Providers</text>
+<polygon fill="#fb8072" stroke="transparent" points="1181.5,-10 1181.5,-30 1201.5,-30 1201.5,-10 1181.5,-10"/>
+<text text-anchor="start" x="1205.2258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
+<g id="clust1" class="cluster">
+<title>cluster_AppModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="267,-146 267,-347 491,-347 491,-146 267,-146"/>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_AppModule_imports</title>
+<polygon fill="none" stroke="#000000" points="275,-154 275,-206 483,-206 483,-154 275,-154"/>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_AppModule_bootstrap</title>
+<polygon fill="none" stroke="#000000" points="317,-287 317,-339 441,-339 441,-287 317,-287"/>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_AuthModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8,-70 8,-138 812,-138 812,-70 8,-70"/>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_AuthModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="352,-78 352,-130 674,-130 674,-78 352,-78"/>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_AuthModule_imports</title>
+<polygon fill="none" stroke="#000000" points="682,-78 682,-130 804,-130 804,-78 682,-78"/>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_AuthModule_exports</title>
+<polygon fill="none" stroke="#000000" points="16,-78 16,-130 344,-130 344,-78 16,-78"/>
+</g>
+<g id="clust15" class="cluster">
+<title>cluster_BooksModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="820,-70 820,-206 1777,-206 1777,-70 820,-70"/>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_BooksModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="1012,-78 1012,-130 1769,-130 1769,-78 1012,-78"/>
+</g>
+<g id="clust24" class="cluster">
+<title>cluster_BooksModule_providers</title>
+<polygon fill="none" stroke="#000000" points="828,-78 828,-130 1004,-130 1004,-78 828,-78"/>
+</g>
+<g id="clust25" class="cluster">
+<title>cluster_ComponentsModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="499,-154 499,-206 645,-206 645,-154 499,-154"/>
+</g>
+<g id="clust47" class="cluster">
+<title>cluster_PipesModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="1785,-70 1785,-279 2039,-279 2039,-70 1785,-70"/>
+</g>
+<g id="clust48" class="cluster">
+<title>cluster_PipesModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="1797,-78 1797,-130 2028,-130 2028,-78 1797,-78"/>
+</g>
+<g id="clust52" class="cluster">
+<title>cluster_PipesModule_exports</title>
+<polygon fill="none" stroke="#000000" points="1793,-219 1793,-271 2031,-271 2031,-219 1793,-219"/>
+</g>
+<g id="clust55" class="cluster">
+<title>cluster_RootAuthModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="499,-219 499,-271 629,-271 629,-219 499,-219"/>
+</g>
+<!-- AuthModule -->
+<g id="node1" class="node">
+<title>AuthModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="474.5482,-198 471.5482,-202 450.5482,-202 447.5482,-198 387.4518,-198 387.4518,-162 474.5482,-162 474.5482,-198"/>
+<text text-anchor="middle" x="431" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AuthModule</text>
+</g>
+<!-- AppModule -->
+<g id="node3" class="node">
+<title>AppModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="420.6571,-263 417.6571,-267 396.6571,-267 393.6571,-263 337.3429,-263 337.3429,-227 420.6571,-227 420.6571,-263"/>
+<text text-anchor="middle" x="379" y="-240.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppModule</text>
+</g>
+<!-- AuthModule&#45;&gt;AppModule -->
+<g id="edge1" class="edge">
+<title>AuthModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M404.0273,-198.1061C404.0273,-198.1061 404.0273,-216.991 404.0273,-216.991"/>
+<polygon fill="#000000" stroke="#000000" points="400.5274,-216.9909 404.0273,-226.991 407.5274,-216.991 400.5274,-216.9909"/>
+</g>
+<!-- LoginFormComponent  -->
+<g id="node8" class="node">
+<title>LoginFormComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="336.1099,-122 187.8901,-122 187.8901,-86 336.1099,-86 336.1099,-122"/>
+<text text-anchor="middle" x="262" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LoginFormComponent </text>
+</g>
+<!-- AuthModule&#45;&gt;LoginFormComponent  -->
+<g id="edge7" class="edge">
+<title>AuthModule&#45;&gt;LoginFormComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M416.4088,-161.68C416.4088,-153.2117 416.4088,-145 416.4088,-145 416.4088,-145 309.462,-145 309.462,-145 309.462,-145 309.462,-132.1025 309.462,-132.1025"/>
+<polygon fill="#000000" stroke="#000000" points="312.962,-132.1025 309.462,-122.1025 305.962,-132.1026 312.962,-132.1025"/>
+</g>
+<!-- LoginPageComponent  -->
+<g id="node9" class="node">
+<title>LoginPageComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="169.9882,-122 24.0118,-122 24.0118,-86 169.9882,-86 169.9882,-122"/>
+<text text-anchor="middle" x="97" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LoginPageComponent </text>
+</g>
+<!-- AuthModule&#45;&gt;LoginPageComponent  -->
+<g id="edge8" class="edge">
+<title>AuthModule&#45;&gt;LoginPageComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M401.8177,-161.9672C401.8177,-155.1474 401.8177,-149 401.8177,-149 401.8177,-149 60.6282,-149 60.6282,-149 60.6282,-149 60.6282,-132.0439 60.6282,-132.0439"/>
+<polygon fill="#000000" stroke="#000000" points="64.1282,-132.0439 60.6282,-122.0439 57.1282,-132.044 64.1282,-132.0439"/>
+</g>
+<!-- RootAuthModule -->
+<g id="node22" class="node">
+<title>RootAuthModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="621.2744,-263 618.2744,-267 597.2744,-267 594.2744,-263 506.7256,-263 506.7256,-227 621.2744,-227 621.2744,-263"/>
+<text text-anchor="middle" x="564" y="-240.8" font-family="Times,serif" font-size="14.00" fill="#000000">RootAuthModule</text>
+</g>
+<!-- AuthModule&#45;&gt;RootAuthModule -->
+<g id="edge29" class="edge">
+<title>AuthModule&#45;&gt;RootAuthModule</title>
+<path fill="none" stroke="#000000" d="M454.1215,-198.1061C454.1215,-217.3391 454.1215,-245 454.1215,-245 454.1215,-245 496.4863,-245 496.4863,-245"/>
+<polygon fill="#000000" stroke="#000000" points="496.4863,-248.5001 506.4863,-245 496.4863,-241.5001 496.4863,-248.5001"/>
+</g>
+<!-- CoreModule -->
+<g id="node2" class="node">
+<title>CoreModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="369.2619,-198 366.2619,-202 345.2619,-202 342.2619,-198 282.7381,-198 282.7381,-162 369.2619,-162 369.2619,-198"/>
+<text text-anchor="middle" x="326" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">CoreModule</text>
+</g>
+<!-- CoreModule&#45;&gt;AppModule -->
+<g id="edge2" class="edge">
+<title>CoreModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M353.2763,-198.1061C353.2763,-198.1061 353.2763,-216.991 353.2763,-216.991"/>
+<polygon fill="#000000" stroke="#000000" points="349.7764,-216.9909 353.2763,-226.991 356.7764,-216.991 349.7764,-216.9909"/>
+</g>
+<!-- CoreModule&#45;&gt;LoginFormComponent  -->
+<g id="edge23" class="edge">
+<title>CoreModule&#45;&gt;LoginFormComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M296.0406,-161.9891C296.0406,-161.9891 296.0406,-132.145 296.0406,-132.145"/>
+<polygon fill="#000000" stroke="#000000" points="299.5407,-132.145 296.0406,-122.145 292.5407,-132.1451 299.5407,-132.145"/>
+</g>
+<!-- CoreModule&#45;&gt;LoginPageComponent  -->
+<g id="edge24" class="edge">
+<title>CoreModule&#45;&gt;LoginPageComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M282.2897,-180C225.4563,-180 133.3719,-180 133.3719,-180 133.3719,-180 133.3719,-132.0109 133.3719,-132.0109"/>
+<polygon fill="#000000" stroke="#000000" points="136.8719,-132.0109 133.3719,-122.0109 129.8719,-132.011 136.8719,-132.0109"/>
+</g>
+<!-- AppComponent  -->
+<g id="node4" class="node">
+<title>AppComponent </title>
+<polygon fill="#80b1d3" stroke="#000000" points="433.439,-331 324.561,-331 324.561,-295 433.439,-295 433.439,-331"/>
+<text text-anchor="middle" x="379" y="-308.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent </text>
+</g>
+<!-- AppModule&#45;&gt;AppComponent  -->
+<g id="edge3" class="edge">
+<title>AppModule&#45;&gt;AppComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M379,-263.2228C379,-263.2228 379,-284.7269 379,-284.7269"/>
+<polygon fill="#000000" stroke="#000000" points="375.5001,-284.7269 379,-294.7269 382.5001,-284.727 375.5001,-284.7269"/>
+</g>
+<!-- LoginFormComponent -->
+<g id="node5" class="node">
+<title>LoginFormComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="665.6094,-122 520.3906,-122 520.3906,-86 665.6094,-86 665.6094,-122"/>
+<text text-anchor="middle" x="593" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LoginFormComponent</text>
+</g>
+<!-- LoginFormComponent&#45;&gt;AuthModule -->
+<g id="edge4" class="edge">
+<title>LoginFormComponent&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M590.4762,-122.0511C590.4762,-136.373 590.4762,-154 590.4762,-154 590.4762,-154 445.5912,-154 445.5912,-154 445.5912,-154 445.5912,-154.7942 445.5912,-154.7942"/>
+<polygon fill="#000000" stroke="#000000" points="442.0913,-151.9421 445.5912,-161.9421 449.0913,-151.9422 442.0913,-151.9421"/>
+</g>
+<!-- LoginFormComponent&#45;&gt;CoreModule -->
+<g id="edge20" class="edge">
+<title>LoginFormComponent&#45;&gt;CoreModule</title>
+<path fill="none" stroke="#000000" d="M567.1325,-122.4218C567.1325,-131.2791 567.1325,-140 567.1325,-140 567.1325,-140 366.256,-140 366.256,-140 366.256,-140 366.256,-151.8726 366.256,-151.8726"/>
+<polygon fill="#000000" stroke="#000000" points="362.7561,-151.8725 366.256,-161.8726 369.7561,-151.8726 362.7561,-151.8725"/>
+</g>
+<!-- ComponentsModule -->
+<g id="node16" class="node">
+<title>ComponentsModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="637.3272,-198 634.3272,-202 613.3272,-202 610.3272,-198 506.6728,-198 506.6728,-162 637.3272,-162 637.3272,-198"/>
+<text text-anchor="middle" x="572" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">ComponentsModule</text>
+</g>
+<!-- LoginFormComponent&#45;&gt;ComponentsModule -->
+<g id="edge15" class="edge">
+<title>LoginFormComponent&#45;&gt;ComponentsModule</title>
+<path fill="none" stroke="#000000" d="M613.8198,-122.0109C613.8198,-122.0109 613.8198,-151.855 613.8198,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="610.3199,-151.8549 613.8198,-161.855 617.3199,-151.855 610.3199,-151.8549"/>
+</g>
+<!-- LoginPageComponent -->
+<g id="node6" class="node">
+<title>LoginPageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="501.9874,-122 360.0126,-122 360.0126,-86 501.9874,-86 501.9874,-122"/>
+<text text-anchor="middle" x="431" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LoginPageComponent</text>
+</g>
+<!-- LoginPageComponent&#45;&gt;AuthModule -->
+<g id="edge5" class="edge">
+<title>LoginPageComponent&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M431,-122.0109C431,-122.0109 431,-151.855 431,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="427.5001,-151.8549 431,-161.855 434.5001,-151.855 427.5001,-151.8549"/>
+</g>
+<!-- LoginPageComponent&#45;&gt;CoreModule -->
+<g id="edge21" class="edge">
+<title>LoginPageComponent&#45;&gt;CoreModule</title>
+<path fill="none" stroke="#000000" d="M363.1311,-122.0109C363.1311,-122.0109 363.1311,-151.855 363.1311,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="359.6312,-151.8549 363.1311,-161.855 366.6312,-151.855 359.6312,-151.8549"/>
+</g>
+<!-- LoginPageComponent&#45;&gt;ComponentsModule -->
+<g id="edge16" class="edge">
+<title>LoginPageComponent&#45;&gt;ComponentsModule</title>
+<path fill="none" stroke="#000000" d="M502.153,-104C507.7967,-104 511.3728,-104 511.3728,-104 511.3728,-104 511.3728,-151.9891 511.3728,-151.9891"/>
+<polygon fill="#000000" stroke="#000000" points="507.8729,-151.989 511.3728,-161.9891 514.8729,-151.9891 507.8729,-151.989"/>
+</g>
+<!-- MaterialModule -->
+<g id="node7" class="node">
+<title>MaterialModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="796.4706,-122 793.4706,-126 772.4706,-126 769.4706,-122 689.5294,-122 689.5294,-86 796.4706,-86 796.4706,-122"/>
+<text text-anchor="middle" x="743" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">MaterialModule</text>
+</g>
+<!-- MaterialModule&#45;&gt;AuthModule -->
+<g id="edge6" class="edge">
+<title>MaterialModule&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M732.3029,-122.2819C732.3029,-137.9478 732.3029,-158 732.3029,-158 732.3029,-158 460.1823,-158 460.1823,-158 460.1823,-158 460.1823,-158.3832 460.1823,-158.3832"/>
+<polygon fill="#000000" stroke="#000000" points="456.6826,-151.832 460.1823,-161.8321 463.6826,-151.8322 456.6826,-151.832"/>
+</g>
+<!-- MaterialModule&#45;&gt;CoreModule -->
+<g id="edge22" class="edge">
+<title>MaterialModule&#45;&gt;CoreModule</title>
+<path fill="none" stroke="#000000" d="M710.9088,-122.1592C710.9088,-127.0433 710.9088,-131 710.9088,-131 710.9088,-131 348.1555,-131 348.1555,-131 348.1555,-131 348.1555,-151.7542 348.1555,-151.7542"/>
+<polygon fill="#000000" stroke="#000000" points="344.6556,-151.7542 348.1555,-161.7542 351.6556,-151.7542 344.6556,-151.7542"/>
+</g>
+<!-- BooksModule -->
+<g id="node14" class="node">
+<title>BooksModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1250.8316,-198 1247.8316,-202 1226.8316,-202 1223.8316,-198 1155.1684,-198 1155.1684,-162 1250.8316,-162 1250.8316,-198"/>
+<text text-anchor="middle" x="1203" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">BooksModule</text>
+</g>
+<!-- MaterialModule&#45;&gt;BooksModule -->
+<g id="edge13" class="edge">
+<title>MaterialModule&#45;&gt;BooksModule</title>
+<path fill="none" stroke="#000000" d="M775.0912,-122.0109C775.0912,-144.4852 775.0912,-180 775.0912,-180 775.0912,-180 1145.159,-180 1145.159,-180"/>
+<polygon fill="#000000" stroke="#000000" points="1145.159,-183.5001 1155.159,-180 1145.1589,-176.5001 1145.159,-183.5001"/>
+</g>
+<!-- MaterialModule&#45;&gt;ComponentsModule -->
+<g id="edge17" class="edge">
+<title>MaterialModule&#45;&gt;ComponentsModule</title>
+<path fill="none" stroke="#000000" d="M753.6971,-122.0263C753.6971,-146.9773 753.6971,-189 753.6971,-189 753.6971,-189 647.3401,-189 647.3401,-189"/>
+<polygon fill="#000000" stroke="#000000" points="647.3401,-185.5001 637.3401,-189 647.3401,-192.5001 647.3401,-185.5001"/>
+</g>
+<!-- CollectionPageComponent -->
+<g id="node10" class="node">
+<title>CollectionPageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1761.3724,-122 1594.6276,-122 1594.6276,-86 1761.3724,-86 1761.3724,-122"/>
+<text text-anchor="middle" x="1678" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CollectionPageComponent</text>
+</g>
+<!-- CollectionPageComponent&#45;&gt;BooksModule -->
+<g id="edge9" class="edge">
+<title>CollectionPageComponent&#45;&gt;BooksModule</title>
+<path fill="none" stroke="#000000" d="M1678,-122.1985C1678,-146.3563 1678,-186 1678,-186 1678,-186 1260.7196,-186 1260.7196,-186"/>
+<polygon fill="#000000" stroke="#000000" points="1260.7197,-182.5001 1250.7196,-186 1260.7196,-189.5001 1260.7197,-182.5001"/>
+</g>
+<!-- FindBookPageComponent -->
+<g id="node11" class="node">
+<title>FindBookPageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1576.0546,-122 1411.9454,-122 1411.9454,-86 1576.0546,-86 1576.0546,-122"/>
+<text text-anchor="middle" x="1494" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">FindBookPageComponent</text>
+</g>
+<!-- FindBookPageComponent&#45;&gt;BooksModule -->
+<g id="edge10" class="edge">
+<title>FindBookPageComponent&#45;&gt;BooksModule</title>
+<path fill="none" stroke="#000000" d="M1494,-122.0267C1494,-142.7672 1494,-174 1494,-174 1494,-174 1260.7269,-174 1260.7269,-174"/>
+<polygon fill="#000000" stroke="#000000" points="1260.7269,-170.5001 1250.7269,-174 1260.7268,-177.5001 1260.7269,-170.5001"/>
+</g>
+<!-- SelectedBookPageComponent -->
+<g id="node12" class="node">
+<title>SelectedBookPageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1394.3032,-122 1207.6968,-122 1207.6968,-86 1394.3032,-86 1394.3032,-122"/>
+<text text-anchor="middle" x="1301" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">SelectedBookPageComponent</text>
+</g>
+<!-- SelectedBookPageComponent&#45;&gt;BooksModule -->
+<g id="edge11" class="edge">
+<title>SelectedBookPageComponent&#45;&gt;BooksModule</title>
+<path fill="none" stroke="#000000" d="M1229.257,-122.0109C1229.257,-122.0109 1229.257,-151.855 1229.257,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="1225.7571,-151.8549 1229.257,-161.855 1232.7571,-151.855 1225.7571,-151.8549"/>
+</g>
+<!-- ViewBookPageComponent -->
+<g id="node13" class="node">
+<title>ViewBookPageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1189.6993,-122 1020.3007,-122 1020.3007,-86 1189.6993,-86 1189.6993,-122"/>
+<text text-anchor="middle" x="1105" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ViewBookPageComponent</text>
+</g>
+<!-- ViewBookPageComponent&#45;&gt;BooksModule -->
+<g id="edge12" class="edge">
+<title>ViewBookPageComponent&#45;&gt;BooksModule</title>
+<path fill="none" stroke="#000000" d="M1172.4671,-122.0109C1172.4671,-122.0109 1172.4671,-151.855 1172.4671,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="1168.9671,-151.8549 1172.4671,-161.855 1175.9671,-151.855 1168.9671,-151.8549"/>
+</g>
+<!-- BookExistsGuard -->
+<g id="node15" class="node">
+<title>BookExistsGuard</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="916" cy="-104" rx="79.8972" ry="18"/>
+<text text-anchor="middle" x="916" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">BookExistsGuard</text>
+</g>
+<!-- BookExistsGuard&#45;&gt;BooksModule -->
+<g id="edge14" class="edge">
+<title>BookExistsGuard&#45;&gt;BooksModule</title>
+<path fill="none" stroke="#000000" d="M916,-122.308C916,-142.1455 916,-171 916,-171 916,-171 1145.2856,-171 1145.2856,-171"/>
+<polygon fill="#000000" stroke="#000000" points="1145.2857,-174.5001 1155.2856,-171 1145.2856,-167.5001 1145.2857,-174.5001"/>
+</g>
+<!-- ComponentsModule&#45;&gt;LoginFormComponent  -->
+<g id="edge18" class="edge">
+<title>ComponentsModule&#45;&gt;LoginFormComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M515.9091,-161.8495C515.9091,-149.7292 515.9091,-136 515.9091,-136 515.9091,-136 322.8833,-136 322.8833,-136 322.8833,-136 322.8833,-132.2434 322.8833,-132.2434"/>
+<polygon fill="#000000" stroke="#000000" points="326.3834,-132.2434 322.8833,-122.2434 319.3834,-132.2434 326.3834,-132.2434"/>
+</g>
+<!-- ComponentsModule&#45;&gt;LoginPageComponent  -->
+<g id="edge19" class="edge">
+<title>ComponentsModule&#45;&gt;LoginPageComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M543.7889,-161.7604C543.7889,-146.4294 543.7889,-127 543.7889,-127 543.7889,-127 97,-127 97,-127 97,-127 97,-126.5122 97,-126.5122"/>
+<polygon fill="#000000" stroke="#000000" points="100.5002,-132.1222 97,-122.1223 93.5002,-132.1224 100.5002,-132.1222"/>
+</g>
+<!-- AddCommasPipe -->
+<g id="node17" class="node">
+<title>AddCommasPipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2020.2716,-122 1905.7284,-122 1905.7284,-86 2020.2716,-86 2020.2716,-122"/>
+<text text-anchor="middle" x="1963" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">AddCommasPipe</text>
+</g>
+<!-- PipesModule -->
+<g id="node19" class="node">
+<title>PipesModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1891.8823,-198 1888.8823,-202 1867.8823,-202 1864.8823,-198 1802.1177,-198 1802.1177,-162 1891.8823,-162 1891.8823,-198"/>
+<text text-anchor="middle" x="1847" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">PipesModule</text>
+</g>
+<!-- AddCommasPipe&#45;&gt;PipesModule -->
+<g id="edge25" class="edge">
+<title>AddCommasPipe&#45;&gt;PipesModule</title>
+<path fill="none" stroke="#000000" d="M1943.8714,-122.0267C1943.8714,-142.7672 1943.8714,-174 1943.8714,-174 1943.8714,-174 1902.0326,-174 1902.0326,-174"/>
+<polygon fill="#000000" stroke="#000000" points="1902.0326,-170.5001 1892.0326,-174 1902.0325,-177.5001 1902.0326,-170.5001"/>
+</g>
+<!-- EllipsisPipe -->
+<g id="node18" class="node">
+<title>EllipsisPipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1887.3921,-122 1804.6079,-122 1804.6079,-86 1887.3921,-86 1887.3921,-122"/>
+<text text-anchor="middle" x="1846" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">EllipsisPipe</text>
+</g>
+<!-- EllipsisPipe&#45;&gt;PipesModule -->
+<g id="edge26" class="edge">
+<title>EllipsisPipe&#45;&gt;PipesModule</title>
+<path fill="none" stroke="#000000" d="M1846,-122.0109C1846,-122.0109 1846,-151.855 1846,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="1842.5001,-151.8549 1846,-161.855 1849.5001,-151.855 1842.5001,-151.8549"/>
+</g>
+<!-- AddCommasPipe  -->
+<g id="node20" class="node">
+<title>AddCommasPipe </title>
+<polygon fill="#fb8072" stroke="#000000" points="2023.2717,-263 1904.7283,-263 1904.7283,-227 2023.2717,-227 2023.2717,-263"/>
+<text text-anchor="middle" x="1964" y="-240.8" font-family="Times,serif" font-size="14.00" fill="#000000">AddCommasPipe </text>
+</g>
+<!-- PipesModule&#45;&gt;AddCommasPipe  -->
+<g id="edge27" class="edge">
+<title>PipesModule&#45;&gt;AddCommasPipe </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1891.9959,-186C1931.3048,-186 1982.1286,-186 1982.1286,-186 1982.1286,-186 1982.1286,-216.9775 1982.1286,-216.9775"/>
+<polygon fill="#000000" stroke="#000000" points="1978.6287,-216.9774 1982.1286,-226.9775 1985.6287,-216.9775 1978.6287,-216.9774"/>
+</g>
+<!-- EllipsisPipe  -->
+<g id="node21" class="node">
+<title>EllipsisPipe </title>
+<polygon fill="#fb8072" stroke="#000000" points="1887.3929,-263 1800.6071,-263 1800.6071,-227 1887.3929,-227 1887.3929,-263"/>
+<text text-anchor="middle" x="1844" y="-240.8" font-family="Times,serif" font-size="14.00" fill="#000000">EllipsisPipe </text>
+</g>
+<!-- PipesModule&#45;&gt;EllipsisPipe  -->
+<g id="edge28" class="edge">
+<title>PipesModule&#45;&gt;EllipsisPipe </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1844.6275,-198.1061C1844.6275,-198.1061 1844.6275,-216.991 1844.6275,-216.991"/>
+<polygon fill="#000000" stroke="#000000" points="1841.1275,-216.9909 1844.6275,-226.991 1848.1275,-216.991 1841.1275,-216.9909"/>
+</g>
+</g>
+</svg>
+
+                </div>
+                <i id="fullscreen" class="fa fa-expand module-graph-fullscreen-btn" aria-hidden="true"></i>
+                <div class="btn-group">
+                    <button id="zoom-in" class="btn btn-default btn-sm">Zoom in</button>
+                    <button id="reset" class="btn btn-default btn-sm">Reset</button>
+                    <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
+                </div>
+            </div>
+<div class="container-fluid overview">
+    <div class="row">
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-archive"></span></h4>
+                        <p class="card-text">
+                            <a href="./modules.html">8 modules</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-cogs"></span></h4>
+                        <p class="card-text">17 components</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-code-fork"></span></h4>
+                        <p class="card-text">7 injectables</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-plus"></span></h4>
+                        <p class="card-text">2 pipes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-file-code-o"></span></h4>
+                        <p class="card-text">22 classes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-info"></span></h4>
+                        <p class="card-text">15 interfaces</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="js/libs/svg-pan-zoom.min.js"></script>
+<script src="js/svg-pan-zoom.controls.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+        <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'overview';
+            var COMPODOC_CURRENT_PAGE_URL = 'overview.html';
+        </script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+
+    </body>
+</html>

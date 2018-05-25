@@ -1,0 +1,3365 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>NGRX</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">NGRX</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">NGRX</a>
+        </li>
+
+        <li class="divider"></li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                            <a href="changelog.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="contributing.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="license.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-additional-pages"
+                >
+                <span class="fa fa-fw fa-book"></span>
+                <span>Additional documentation</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-additional-pages"
+                >
+                    <li class="link ">
+                        <a href="additional-documentation/procédure-d&#x27;installation.html" data-type="entity-link" data-context-id="additional">Procédure d&#x27;installation</a>
+                    </li>
+                    <li class="link ">
+                        <a href="additional-documentation/environnement-technique.html" data-type="entity-link" data-context-id="additional">Environnement technique</a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#xs-modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="xs-modules-links"
+                >
+                    <li class="link">
+                        <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+                                    >
+                                        <li class="link">
+                                            <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/AuthModule.html" data-type="entity-link">AuthModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/BooksModule.html" data-type="entity-link">BooksModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                        <li class="link">
+                                            <a href="components/CollectionPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">CollectionPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FindBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FindBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/SelectedBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">SelectedBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/ViewBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">ViewBookPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                    <span class="fa fa-fw fa-long-arrow-down"></span>
+                                    <span>Injectables</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                        <li class="link">
+                                            <a href="injectables/BookExistsGuard.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules"}>BookExistsGuard</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/ComponentsModule.html" data-type="entity-link">ComponentsModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/CoreModule.html" data-type="entity-link">CoreModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/MaterialModule.html" data-type="entity-link">MaterialModule</a>
+                    </li>
+                    <li class="link">
+                        <a href="modules/PipesModule.html" data-type="entity-link">PipesModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+                                    >
+                                    <span class="fa fa-fw fa-plus"></span>
+                                    <span>Pipes</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+                                    >
+                                        <li class="link">
+                                            <a href="pipes/AddCommasPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AddCommasPipe</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="pipes/EllipsisPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">EllipsisPipe</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/RootAuthModule.html" data-type="entity-link">RootAuthModule</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#xs-components-links"
+                        >
+                        <span class="fa fa-fw fa-cogs"></span>
+                        <span>Components</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="xs-components-links"
+                        >
+                            <li class="link">
+                                <a href="components/AppComponent.html" data-type="entity-link">AppComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookAuthorsComponent.html" data-type="entity-link">BookAuthorsComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookDetailComponent.html" data-type="entity-link">BookDetailComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewComponent.html" data-type="entity-link">BookPreviewComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewListComponent.html" data-type="entity-link">BookPreviewListComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookSearchComponent.html" data-type="entity-link">BookSearchComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/LayoutComponent.html" data-type="entity-link">LayoutComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NavItemComponent.html" data-type="entity-link">NavItemComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NotFoundPageComponent.html" data-type="entity-link">NotFoundPageComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/SidenavComponent.html" data-type="entity-link">SidenavComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/ToolbarComponent.html" data-type="entity-link">ToolbarComponent</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-classes-links"
+                >
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-classes-links"
+                >
+                    <li class="link">
+                        <a href="classes/AddBook.html" data-type="entity-link">AddBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookFail.html" data-type="entity-link">AddBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookSuccess.html" data-type="entity-link">AddBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CloseSidenav.html" data-type="entity-link">CloseSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CustomRouterStateSerializer.html" data-type="entity-link">CustomRouterStateSerializer</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadFail.html" data-type="entity-link">LoadFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadSuccess.html" data-type="entity-link">LoadSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Login.html" data-type="entity-link">Login</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginFailure.html" data-type="entity-link">LoginFailure</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginRedirect.html" data-type="entity-link">LoginRedirect</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginSuccess.html" data-type="entity-link">LoginSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Logout.html" data-type="entity-link">Logout</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/OpenSidenav.html" data-type="entity-link">OpenSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBook.html" data-type="entity-link">RemoveBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookFail.html" data-type="entity-link">RemoveBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookSuccess.html" data-type="entity-link">RemoveBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Search.html" data-type="entity-link">Search</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchComplete.html" data-type="entity-link">SearchComplete</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchError.html" data-type="entity-link">SearchError</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Select.html" data-type="entity-link">Select</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#xs-injectables-links"
+                        >
+                        <span class="fa fa-fw fa-long-arrow-down"></span>
+                        <span>Injectables</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="xs-injectables-links"
+                        >
+                            <li class="link">
+                                <a href="injectables/AuthEffects.html" data-type="entity-link">AuthEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthGuard.html" data-type="entity-link">AuthGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthService.html" data-type="entity-link">AuthService</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookEffects.html" data-type="entity-link">BookEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookExistsGuard.html" data-type="entity-link">BookExistsGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/CollectionEffects.html" data-type="entity-link">CollectionEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/GoogleBooksService.html" data-type="entity-link">GoogleBooksService</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-interfaces-links"
+                >
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-interfaces-links"
+                >
+                    <li class="link">
+                        <a href="interfaces/AuthState.html" data-type="entity-link">AuthState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Authenticate.html" data-type="entity-link">Authenticate</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Book.html" data-type="entity-link">Book</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/BooksState.html" data-type="entity-link">BooksState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/RouterStateUrl.html" data-type="entity-link">RouterStateUrl</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/User.html" data-type="entity-link">User</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-miscellaneous-links"
+                >
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-miscellaneous-links"
+                >
+                    <li class="link">
+                      <a href="miscellaneous/enumerations.html" data-type="entity-link">Enums</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/functions.html" data-type="entity-link">Functions</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                            <img data-src="images/compodoc-vectorise.svg" class="img-responsive" data-type="compodoc-logo">
+                </a>
+        </li>
+
+    </ul>
+
+</nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">NGRX</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                            <a href="changelog.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="contributing.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="license.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#additional-pages"
+>
+                <span class="fa fa-fw fa-book"></span>
+                <span>Additional documentation</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="additional-pages"
+>
+                    <li class="link ">
+                        <a href="additional-documentation/procédure-d&#x27;installation.html" data-type="entity-link" data-context-id="additional">Procédure d&#x27;installation</a>
+                    </li>
+                    <li class="link ">
+                        <a href="additional-documentation/environnement-technique.html" data-type="entity-link" data-context-id="additional">Environnement technique</a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+>
+                                        <li class="link">
+                                            <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/AuthModule.html" data-type="entity-link">AuthModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/BooksModule.html" data-type="entity-link">BooksModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                        <li class="link">
+                                            <a href="components/CollectionPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">CollectionPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FindBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FindBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/SelectedBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">SelectedBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/ViewBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">ViewBookPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                    <span class="fa fa-fw fa-long-arrow-down"></span>
+                                    <span>Injectables</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                        <li class="link">
+                                            <a href="injectables/BookExistsGuard.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules"}>BookExistsGuard</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/ComponentsModule.html" data-type="entity-link">ComponentsModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/CoreModule.html" data-type="entity-link">CoreModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/MaterialModule.html" data-type="entity-link">MaterialModule</a>
+                    </li>
+                    <li class="link">
+                        <a href="modules/PipesModule.html" data-type="entity-link">PipesModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+>
+                                    <span class="fa fa-fw fa-plus"></span>
+                                    <span>Pipes</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+>
+                                        <li class="link">
+                                            <a href="pipes/AddCommasPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AddCommasPipe</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="pipes/EllipsisPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">EllipsisPipe</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/RootAuthModule.html" data-type="entity-link">RootAuthModule</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#components-links"
+>
+                        <span class="fa fa-fw fa-cogs"></span>
+                        <span>Components</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="components-links"
+>
+                            <li class="link">
+                                <a href="components/AppComponent.html" data-type="entity-link">AppComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookAuthorsComponent.html" data-type="entity-link">BookAuthorsComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookDetailComponent.html" data-type="entity-link">BookDetailComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewComponent.html" data-type="entity-link">BookPreviewComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewListComponent.html" data-type="entity-link">BookPreviewListComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookSearchComponent.html" data-type="entity-link">BookSearchComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/LayoutComponent.html" data-type="entity-link">LayoutComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NavItemComponent.html" data-type="entity-link">NavItemComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NotFoundPageComponent.html" data-type="entity-link">NotFoundPageComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/SidenavComponent.html" data-type="entity-link">SidenavComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/ToolbarComponent.html" data-type="entity-link">ToolbarComponent</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#classes-links"
+>
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="classes-links"
+>
+                    <li class="link">
+                        <a href="classes/AddBook.html" data-type="entity-link">AddBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookFail.html" data-type="entity-link">AddBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookSuccess.html" data-type="entity-link">AddBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CloseSidenav.html" data-type="entity-link">CloseSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CustomRouterStateSerializer.html" data-type="entity-link">CustomRouterStateSerializer</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadFail.html" data-type="entity-link">LoadFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadSuccess.html" data-type="entity-link">LoadSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Login.html" data-type="entity-link">Login</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginFailure.html" data-type="entity-link">LoginFailure</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginRedirect.html" data-type="entity-link">LoginRedirect</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginSuccess.html" data-type="entity-link">LoginSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Logout.html" data-type="entity-link">Logout</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/OpenSidenav.html" data-type="entity-link">OpenSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBook.html" data-type="entity-link">RemoveBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookFail.html" data-type="entity-link">RemoveBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookSuccess.html" data-type="entity-link">RemoveBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Search.html" data-type="entity-link">Search</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchComplete.html" data-type="entity-link">SearchComplete</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchError.html" data-type="entity-link">SearchError</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Select.html" data-type="entity-link">Select</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#injectables-links"
+>
+                        <span class="fa fa-fw fa-long-arrow-down"></span>
+                        <span>Injectables</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="injectables-links"
+>
+                            <li class="link">
+                                <a href="injectables/AuthEffects.html" data-type="entity-link">AuthEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthGuard.html" data-type="entity-link">AuthGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthService.html" data-type="entity-link">AuthService</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookEffects.html" data-type="entity-link">BookEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookExistsGuard.html" data-type="entity-link">BookExistsGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/CollectionEffects.html" data-type="entity-link">CollectionEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/GoogleBooksService.html" data-type="entity-link">GoogleBooksService</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#interfaces-links"
+>
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="interfaces-links"
+>
+                    <li class="link">
+                        <a href="interfaces/AuthState.html" data-type="entity-link">AuthState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Authenticate.html" data-type="entity-link">Authenticate</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Book.html" data-type="entity-link">Book</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/BooksState.html" data-type="entity-link">BooksState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/RouterStateUrl.html" data-type="entity-link">RouterStateUrl</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/User.html" data-type="entity-link">User</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="miscellaneous/enumerations.html" data-type="entity-link">Enums</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/functions.html" data-type="entity-link">Functions</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                            <img data-src="images/compodoc-vectorise.svg" class="img-responsive" data-type="compodoc-logo">
+                </a>
+        </li>
+
+    </ul>
+
+</nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#adapter" title="example-app/app/books/reducers/books.reducer.ts"><b>adapter</b>&nbsp;&nbsp;&nbsp;(example-app/.../books.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#COMPONENTS" title="example-app/app/auth/auth.module.ts"><b>COMPONENTS</b>&nbsp;&nbsp;&nbsp;(example-app/.../auth.module.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#COMPONENTS" title="example-app/app/books/components/index.ts"><b>COMPONENTS</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#COMPONENTS" title="example-app/app/core/core.module.ts"><b>COMPONENTS</b>&nbsp;&nbsp;&nbsp;(example-app/.../core.module.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environment" title="example-app/environments/environment.prod.ts"><b>environment</b>&nbsp;&nbsp;&nbsp;(example-app/.../environment.prod.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environment" title="example-app/environments/environment.ts"><b>environment</b>&nbsp;&nbsp;&nbsp;(example-app/.../environment.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getBookCollection" title="example-app/app/books/reducers/index.ts"><b>getBookCollection</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getBookEntitiesState" title="example-app/app/books/reducers/index.ts"><b>getBookEntitiesState</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getBooksState" title="example-app/app/books/reducers/index.ts"><b>getBooksState</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getCollectionBookIds" title="example-app/app/books/reducers/index.ts"><b>getCollectionBookIds</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getCollectionLoaded" title="example-app/app/books/reducers/index.ts"><b>getCollectionLoaded</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getCollectionLoading" title="example-app/app/books/reducers/index.ts"><b>getCollectionLoading</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getCollectionState" title="example-app/app/books/reducers/index.ts"><b>getCollectionState</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getError" title="example-app/app/books/reducers/search.reducer.ts"><b>getError</b>&nbsp;&nbsp;&nbsp;(example-app/.../search.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getError" title="example-app/app/auth/reducers/login-page.reducer.ts"><b>getError</b>&nbsp;&nbsp;&nbsp;(example-app/.../login-page.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getIds" title="example-app/app/books/reducers/search.reducer.ts"><b>getIds</b>&nbsp;&nbsp;&nbsp;(example-app/.../search.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getIds" title="example-app/app/books/reducers/collection.reducer.ts"><b>getIds</b>&nbsp;&nbsp;&nbsp;(example-app/.../collection.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLayoutState" title="example-app/app/reducers/index.ts"><b>getLayoutState</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoaded" title="example-app/app/books/reducers/collection.reducer.ts"><b>getLoaded</b>&nbsp;&nbsp;&nbsp;(example-app/.../collection.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoading" title="example-app/app/books/reducers/collection.reducer.ts"><b>getLoading</b>&nbsp;&nbsp;&nbsp;(example-app/.../collection.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoading" title="example-app/app/books/reducers/search.reducer.ts"><b>getLoading</b>&nbsp;&nbsp;&nbsp;(example-app/.../search.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoggedIn" title="example-app/app/auth/reducers/auth.reducer.ts"><b>getLoggedIn</b>&nbsp;&nbsp;&nbsp;(example-app/.../auth.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoggedIn" title="example-app/app/auth/reducers/index.ts"><b>getLoggedIn</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoginPageError" title="example-app/app/auth/reducers/index.ts"><b>getLoginPageError</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoginPagePending" title="example-app/app/auth/reducers/index.ts"><b>getLoginPagePending</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getPending" title="example-app/app/auth/reducers/login-page.reducer.ts"><b>getPending</b>&nbsp;&nbsp;&nbsp;(example-app/.../login-page.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getQuery" title="example-app/app/books/reducers/search.reducer.ts"><b>getQuery</b>&nbsp;&nbsp;&nbsp;(example-app/.../search.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSearchBookIds" title="example-app/app/books/reducers/index.ts"><b>getSearchBookIds</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSearchError" title="example-app/app/books/reducers/index.ts"><b>getSearchError</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSearchLoading" title="example-app/app/books/reducers/index.ts"><b>getSearchLoading</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSearchQuery" title="example-app/app/books/reducers/index.ts"><b>getSearchQuery</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSearchResults" title="example-app/app/books/reducers/index.ts"><b>getSearchResults</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSearchState" title="example-app/app/books/reducers/index.ts"><b>getSearchState</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSelectedBook" title="example-app/app/books/reducers/index.ts"><b>getSelectedBook</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSelectedBookId" title="example-app/app/books/reducers/index.ts"><b>getSelectedBookId</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getSelectedId" title="example-app/app/books/reducers/books.reducer.ts"><b>getSelectedId</b>&nbsp;&nbsp;&nbsp;(example-app/.../books.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getShowSidenav" title="example-app/app/core/reducers/layout.reducer.ts"><b>getShowSidenav</b>&nbsp;&nbsp;&nbsp;(example-app/.../layout.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getShowSidenav" title="example-app/app/reducers/index.ts"><b>getShowSidenav</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getUser" title="example-app/app/auth/reducers/auth.reducer.ts"><b>getUser</b>&nbsp;&nbsp;&nbsp;(example-app/.../auth.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getUser" title="example-app/app/auth/reducers/index.ts"><b>getUser</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="example-app/app/auth/reducers/auth.reducer.ts"><b>initialState</b>&nbsp;&nbsp;&nbsp;(example-app/.../auth.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="example-app/app/core/reducers/layout.reducer.ts"><b>initialState</b>&nbsp;&nbsp;&nbsp;(example-app/.../layout.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="example-app/app/books/reducers/collection.reducer.ts"><b>initialState</b>&nbsp;&nbsp;&nbsp;(example-app/.../collection.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="example-app/app/auth/reducers/login-page.reducer.ts"><b>initialState</b>&nbsp;&nbsp;&nbsp;(example-app/.../login-page.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="example-app/app/books/reducers/books.reducer.ts"><b>initialState</b>&nbsp;&nbsp;&nbsp;(example-app/.../books.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="example-app/app/books/reducers/search.reducer.ts"><b>initialState</b>&nbsp;&nbsp;&nbsp;(example-app/.../search.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#isSelectedBookInCollection" title="example-app/app/books/reducers/index.ts"><b>isSelectedBookInCollection</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#metaReducers" title="example-app/app/reducers/index.ts"><b>metaReducers</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#PIPES" title="example-app/app/shared/pipes/index.ts"><b>PIPES</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#" title="example-app/app/books/reducers/index.ts"><b></b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducers" title="example-app/app/auth/reducers/index.ts"><b>reducers</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducers" title="example-app/app/books/reducers/index.ts"><b>reducers</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducers" title="example-app/app/reducers/index.ts"><b>reducers</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#schema" title="example-app/app/db.ts"><b>schema</b>&nbsp;&nbsp;&nbsp;(example-app/.../db.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#SEARCH_DEBOUNCE" title="example-app/app/books/effects/book.effects.ts"><b>SEARCH_DEBOUNCE</b>&nbsp;&nbsp;&nbsp;(example-app/.../book.effects.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#SEARCH_SCHEDULER" title="example-app/app/books/effects/book.effects.ts"><b>SEARCH_SCHEDULER</b>&nbsp;&nbsp;&nbsp;(example-app/.../book.effects.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#selectAuthState" title="example-app/app/auth/reducers/index.ts"><b>selectAuthState</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#selectAuthStatusState" title="example-app/app/auth/reducers/index.ts"><b>selectAuthStatusState</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#selectLoginPageState" title="example-app/app/auth/reducers/index.ts"><b>selectLoginPageState</b>&nbsp;&nbsp;&nbsp;(example-app/.../index.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>example-app/app/books/reducers/books.reducer.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="adapter"></a>
+                        <span class="name">
+                            <b>
+                            adapter
+                            </b>
+                            <a href="#adapter"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>adapter:     <code><a href="../interfaces/Book.html" target="_self" >EntityAdapter&lt;Book&gt;</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/Book.html" target="_self" >EntityAdapter&lt;Book&gt;</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createEntityAdapter&lt;Book&gt;({
+  selectId: (book: Book) &#x3D;&gt; book.id,
+  sortComparer: false,
+})</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>createEntityAdapter creates an object of many helper
+functions for single or multiple operations
+against the dictionary of records. The configuration
+object takes a record id selector function and
+a sortComparer option which is set to a compare
+function if the records are to be sorted.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSelectedId"></a>
+                        <span class="name">
+                            <b>
+                            getSelectedId
+                            </b>
+                            <a href="#getSelectedId"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSelectedId:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.selectedBookId</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Because the data structure is defined within the reducer it is optimal to
+locate our selector functions at this level. If store is to be thought of
+as a database, and reducers the tables, selectors can be considered the
+queries into said database. Remember to keep your selectors small and
+focused so they can be combined and composed to fit each particular
+use-case.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="initialState"></a>
+                        <span class="name">
+                            <b>
+                            initialState
+                            </b>
+                            <a href="#initialState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>initialState:     <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>adapter.getInitialState({
+  selectedBookId: null,
+})</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>getInitialState returns the default initial state
+for the generated entity state. Initial state
+additional properties can also be defined.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/auth/auth.module.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="COMPONENTS"></a>
+                        <span class="name">
+                            <b>
+                            COMPONENTS
+                            </b>
+                            <a href="#COMPONENTS"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>COMPONENTS:     <code>[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[LoginPageComponent, LoginFormComponent]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/books/components/index.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="COMPONENTS"></a>
+                        <span class="name">
+                            <b>
+                            COMPONENTS
+                            </b>
+                            <a href="#COMPONENTS"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>COMPONENTS:     <code>[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+  BookAuthorsComponent,
+  BookDetailComponent,
+  BookPreviewComponent,
+  BookPreviewListComponent,
+  BookSearchComponent,
+]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/core/core.module.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="COMPONENTS"></a>
+                        <span class="name">
+                            <b>
+                            COMPONENTS
+                            </b>
+                            <a href="#COMPONENTS"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>COMPONENTS:     <code>[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+  AppComponent,
+  NotFoundPageComponent,
+  LayoutComponent,
+  NavItemComponent,
+  SidenavComponent,
+  ToolbarComponent,
+]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/environments/environment.prod.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="environment"></a>
+                        <span class="name">
+                            <b>
+                            environment
+                            </b>
+                            <a href="#environment"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>environment:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  production: true,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/environments/environment.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="environment"></a>
+                        <span class="name">
+                            <b>
+                            environment
+                            </b>
+                            <a href="#environment"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>environment:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  production: false,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/books/reducers/index.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getBookCollection"></a>
+                        <span class="name">
+                            <b>
+                            getBookCollection
+                            </b>
+                            <a href="#getBookCollection"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getBookCollection:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getBookEntities,
+  getCollectionBookIds,
+  (entities, ids) &#x3D;&gt; {
+    return ids.map(id &#x3D;&gt; entities[id]);
+  }
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getBookEntitiesState"></a>
+                        <span class="name">
+                            <b>
+                            getBookEntitiesState
+                            </b>
+                            <a href="#getBookEntitiesState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getBookEntitiesState:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getBooksState,
+  state &#x3D;&gt; state.books
+)</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Every reducer module exports selector functions, however child reducers
+have no knowledge of the overall state tree. To make them usable, we
+need to make new selectors that wrap them.</p>
+<p>The createSelector function creates very efficient selectors that are memoized and
+only recompute when arguments change. The created selectors can also be composed
+together to select different pieces of state.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getBooksState"></a>
+                        <span class="name">
+                            <b>
+                            getBooksState
+                            </b>
+                            <a href="#getBooksState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getBooksState:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createFeatureSelector&lt;BooksState&gt;(&#x27;books&#x27;)</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>A selector function is a map function factory. We pass it parameters and it
+returns a function that maps from the larger state tree into a smaller
+piece of state. This selector simply selects the <code>books</code> state.</p>
+<p>Selectors are used with the <code>select</code> operator.</p>
+<div><pre class="line-numbers"><code class="language-ts">class MyComponent {
+   constructor(state$: Observable&lt;State&gt;) {
+     this.booksState$ = state$.pipe(select(getBooksState));
+   }
+}</code></pre></div></div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getCollectionBookIds"></a>
+                        <span class="name">
+                            <b>
+                            getCollectionBookIds
+                            </b>
+                            <a href="#getCollectionBookIds"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getCollectionBookIds:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getCollectionState,
+  fromCollection.getIds
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getCollectionLoaded"></a>
+                        <span class="name">
+                            <b>
+                            getCollectionLoaded
+                            </b>
+                            <a href="#getCollectionLoaded"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getCollectionLoaded:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getCollectionState,
+  fromCollection.getLoaded
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getCollectionLoading"></a>
+                        <span class="name">
+                            <b>
+                            getCollectionLoading
+                            </b>
+                            <a href="#getCollectionLoading"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getCollectionLoading:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getCollectionState,
+  fromCollection.getLoading
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getCollectionState"></a>
+                        <span class="name">
+                            <b>
+                            getCollectionState
+                            </b>
+                            <a href="#getCollectionState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getCollectionState:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getBooksState,
+  (state: BooksState) &#x3D;&gt; state.collection
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSearchBookIds"></a>
+                        <span class="name">
+                            <b>
+                            getSearchBookIds
+                            </b>
+                            <a href="#getSearchBookIds"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSearchBookIds:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getSearchState,
+  fromSearch.getIds
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSearchError"></a>
+                        <span class="name">
+                            <b>
+                            getSearchError
+                            </b>
+                            <a href="#getSearchError"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSearchError:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getSearchState,
+  fromSearch.getError
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSearchLoading"></a>
+                        <span class="name">
+                            <b>
+                            getSearchLoading
+                            </b>
+                            <a href="#getSearchLoading"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSearchLoading:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getSearchState,
+  fromSearch.getLoading
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSearchQuery"></a>
+                        <span class="name">
+                            <b>
+                            getSearchQuery
+                            </b>
+                            <a href="#getSearchQuery"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSearchQuery:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getSearchState,
+  fromSearch.getQuery
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSearchResults"></a>
+                        <span class="name">
+                            <b>
+                            getSearchResults
+                            </b>
+                            <a href="#getSearchResults"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSearchResults:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getBookEntities,
+  getSearchBookIds,
+  (books, searchIds) &#x3D;&gt; {
+    return searchIds.map(id &#x3D;&gt; books[id]);
+  }
+)</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Some selector functions create joins across parts of state. This selector
+composes the search result IDs to return an array of books in the store.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSearchState"></a>
+                        <span class="name">
+                            <b>
+                            getSearchState
+                            </b>
+                            <a href="#getSearchState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSearchState:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getBooksState,
+  (state: BooksState) &#x3D;&gt; state.search
+)</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Just like with the books selectors, we also have to compose the search
+reducer&#39;s and collection reducer&#39;s selectors.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSelectedBook"></a>
+                        <span class="name">
+                            <b>
+                            getSelectedBook
+                            </b>
+                            <a href="#getSelectedBook"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSelectedBook:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getBookEntities,
+  getSelectedBookId,
+  (entities, selectedId) &#x3D;&gt; {
+    return selectedId &amp;&amp; entities[selectedId];
+  }
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getSelectedBookId"></a>
+                        <span class="name">
+                            <b>
+                            getSelectedBookId
+                            </b>
+                            <a href="#getSelectedBookId"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getSelectedBookId:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getBookEntitiesState,
+  fromBooks.getSelectedId
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isSelectedBookInCollection"></a>
+                        <span class="name">
+                            <b>
+                            isSelectedBookInCollection
+                            </b>
+                            <a href="#isSelectedBookInCollection"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>isSelectedBookInCollection:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getCollectionBookIds,
+  getSelectedBookId,
+  (ids, selected) &#x3D;&gt; {
+    return ids.indexOf(selected) &gt; -1;
+  }
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name=""></a>
+                        <span class="name">
+                            <b>
+                            
+                            </b>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>fromBooks.adapter.getSelectors(getBookEntitiesState)</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Adapters created with @ngrx/entity generate
+commonly used selector functions including
+getting all ids in the record set, a dictionary
+of the records by id, an array of records and
+the total number of records. This reduces boilerplate
+in selecting records from the entity state.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="reducers"></a>
+                        <span class="name">
+                            <b>
+                            reducers
+                            </b>
+                            <a href="#reducers"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>reducers:     <code><a href="../interfaces/State.html" target="_self" >ActionReducerMap&lt;BooksState&gt;</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >ActionReducerMap&lt;BooksState&gt;</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  search: fromSearch.reducer,
+  books: fromBooks.reducer,
+  collection: fromCollection.reducer,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/books/reducers/search.reducer.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getError"></a>
+                        <span class="name">
+                            <b>
+                            getError
+                            </b>
+                            <a href="#getError"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getError:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getIds"></a>
+                        <span class="name">
+                            <b>
+                            getIds
+                            </b>
+                            <a href="#getIds"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getIds:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.ids</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getLoading"></a>
+                        <span class="name">
+                            <b>
+                            getLoading
+                            </b>
+                            <a href="#getLoading"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getLoading:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getQuery"></a>
+                        <span class="name">
+                            <b>
+                            getQuery
+                            </b>
+                            <a href="#getQuery"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getQuery:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.query</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="initialState"></a>
+                        <span class="name">
+                            <b>
+                            initialState
+                            </b>
+                            <a href="#initialState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>initialState:     <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  ids: [],
+  loading: false,
+  error: &#x27;&#x27;,
+  query: &#x27;&#x27;,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/auth/reducers/login-page.reducer.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getError"></a>
+                        <span class="name">
+                            <b>
+                            getError
+                            </b>
+                            <a href="#getError"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getError:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getPending"></a>
+                        <span class="name">
+                            <b>
+                            getPending
+                            </b>
+                            <a href="#getPending"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getPending:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.pending</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="initialState"></a>
+                        <span class="name">
+                            <b>
+                            initialState
+                            </b>
+                            <a href="#initialState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>initialState:     <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  error: null,
+  pending: false,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/books/reducers/collection.reducer.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getIds"></a>
+                        <span class="name">
+                            <b>
+                            getIds
+                            </b>
+                            <a href="#getIds"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getIds:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.ids</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getLoaded"></a>
+                        <span class="name">
+                            <b>
+                            getLoaded
+                            </b>
+                            <a href="#getLoaded"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getLoaded:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loaded</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getLoading"></a>
+                        <span class="name">
+                            <b>
+                            getLoading
+                            </b>
+                            <a href="#getLoading"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getLoading:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="initialState"></a>
+                        <span class="name">
+                            <b>
+                            initialState
+                            </b>
+                            <a href="#initialState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>initialState:     <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  loaded: false,
+  loading: false,
+  ids: [],
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/reducers/index.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getLayoutState"></a>
+                        <span class="name">
+                            <b>
+                            getLayoutState
+                            </b>
+                            <a href="#getLayoutState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getLayoutState:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createFeatureSelector&lt;fromLayout.State&gt;(&#x27;layout&#x27;)</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Layout Reducers</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getShowSidenav"></a>
+                        <span class="name">
+                            <b>
+                            getShowSidenav
+                            </b>
+                            <a href="#getShowSidenav"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getShowSidenav:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  getLayoutState,
+  fromLayout.getShowSidenav
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="metaReducers"></a>
+                        <span class="name">
+                            <b>
+                            metaReducers
+                            </b>
+                            <a href="#metaReducers"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>metaReducers:     <code>MetaReducer[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>MetaReducer[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>!environment.production
+  ? [logger, storeFreeze]
+  : []</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>By default, @ngrx/store uses combineReducers with the reducer map to compose
+the root meta-reducer. To add more meta-reducers, provide an array of meta-reducers
+that will be composed to form the root meta-reducer.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="reducers"></a>
+                        <span class="name">
+                            <b>
+                            reducers
+                            </b>
+                            <a href="#reducers"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>reducers:     <code><a href="../interfaces/State.html" target="_self" >ActionReducerMap&lt;State&gt;</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >ActionReducerMap&lt;State&gt;</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  layout: fromLayout.reducer,
+  router: fromRouter.routerReducer,
+}</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Our state is composed of a map of action reducer functions.
+These reducer functions are called with each dispatched action
+and the current or initial state and return a new immutable state.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/auth/reducers/auth.reducer.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getLoggedIn"></a>
+                        <span class="name">
+                            <b>
+                            getLoggedIn
+                            </b>
+                            <a href="#getLoggedIn"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getLoggedIn:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loggedIn</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getUser"></a>
+                        <span class="name">
+                            <b>
+                            getUser
+                            </b>
+                            <a href="#getUser"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getUser:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.user</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="initialState"></a>
+                        <span class="name">
+                            <b>
+                            initialState
+                            </b>
+                            <a href="#initialState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>initialState:     <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  loggedIn: false,
+  user: null,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/auth/reducers/index.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getLoggedIn"></a>
+                        <span class="name">
+                            <b>
+                            getLoggedIn
+                            </b>
+                            <a href="#getLoggedIn"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getLoggedIn:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  selectAuthStatusState,
+  fromAuth.getLoggedIn
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getLoginPageError"></a>
+                        <span class="name">
+                            <b>
+                            getLoginPageError
+                            </b>
+                            <a href="#getLoginPageError"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getLoginPageError:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  selectLoginPageState,
+  fromLoginPage.getError
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getLoginPagePending"></a>
+                        <span class="name">
+                            <b>
+                            getLoginPagePending
+                            </b>
+                            <a href="#getLoginPagePending"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getLoginPagePending:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  selectLoginPageState,
+  fromLoginPage.getPending
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getUser"></a>
+                        <span class="name">
+                            <b>
+                            getUser
+                            </b>
+                            <a href="#getUser"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getUser:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(selectAuthStatusState, fromAuth.getUser)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="reducers"></a>
+                        <span class="name">
+                            <b>
+                            reducers
+                            </b>
+                            <a href="#reducers"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>reducers:     <code><a href="../interfaces/State.html" target="_self" >ActionReducerMap&lt;AuthState&gt;</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >ActionReducerMap&lt;AuthState&gt;</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  status: fromAuth.reducer,
+  loginPage: fromLoginPage.reducer,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectAuthState"></a>
+                        <span class="name">
+                            <b>
+                            selectAuthState
+                            </b>
+                            <a href="#selectAuthState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>selectAuthState:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createFeatureSelector&lt;AuthState&gt;(&#x27;auth&#x27;)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectAuthStatusState"></a>
+                        <span class="name">
+                            <b>
+                            selectAuthStatusState
+                            </b>
+                            <a href="#selectAuthStatusState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>selectAuthStatusState:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  selectAuthState,
+  (state: AuthState) &#x3D;&gt; state.status
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectLoginPageState"></a>
+                        <span class="name">
+                            <b>
+                            selectLoginPageState
+                            </b>
+                            <a href="#selectLoginPageState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>selectLoginPageState:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>createSelector(
+  selectAuthState,
+  (state: AuthState) &#x3D;&gt; state.loginPage
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/core/reducers/layout.reducer.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getShowSidenav"></a>
+                        <span class="name">
+                            <b>
+                            getShowSidenav
+                            </b>
+                            <a href="#getShowSidenav"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>getShowSidenav:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(state: State) &#x3D;&gt; state.showSidenav</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="initialState"></a>
+                        <span class="name">
+                            <b>
+                            initialState
+                            </b>
+                            <a href="#initialState"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>initialState:     <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  showSidenav: false,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/shared/pipes/index.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="PIPES"></a>
+                        <span class="name">
+                            <b>
+                            PIPES
+                            </b>
+                            <a href="#PIPES"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>PIPES:     <code>[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[AddCommasPipe, EllipsisPipe]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/db.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="schema"></a>
+                        <span class="name">
+                            <b>
+                            schema
+                            </b>
+                            <a href="#schema"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>schema:     <code>DBSchema</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>DBSchema</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  version: 1,
+  name: &#x27;books_app&#x27;,
+  stores: {
+    books: {
+      autoIncrement: true,
+      primaryKey: &#x27;id&#x27;,
+    },
+  },
+}</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>ngrx/db uses a simple schema config object to initialize stores in IndexedDB.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>example-app/app/books/effects/book.effects.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="SEARCH_DEBOUNCE"></a>
+                        <span class="name">
+                            <b>
+                            SEARCH_DEBOUNCE
+                            </b>
+                            <a href="#SEARCH_DEBOUNCE"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>SEARCH_DEBOUNCE:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new InjectionToken&lt;number&gt;(&#x27;Search Debounce&#x27;)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="SEARCH_SCHEDULER"></a>
+                        <span class="name">
+                            <b>
+                            SEARCH_SCHEDULER
+                            </b>
+                            <a href="#SEARCH_SCHEDULER"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>SEARCH_SCHEDULER:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new InjectionToken&lt;Scheduler&gt;(
+  &#x27;Search Scheduler&#x27;
+)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+        <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+        </script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+
+    </body>
+</html>

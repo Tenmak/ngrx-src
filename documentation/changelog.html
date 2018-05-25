@@ -1,0 +1,1499 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>NGRX</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	      <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">NGRX</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">NGRX</a>
+        </li>
+
+        <li class="divider"></li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                            <a href="changelog.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="contributing.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="license.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-additional-pages"
+                >
+                <span class="fa fa-fw fa-book"></span>
+                <span>Additional documentation</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-additional-pages"
+                >
+                    <li class="link ">
+                        <a href="additional-documentation/procédure-d&#x27;installation.html" data-type="entity-link" data-context-id="additional">Procédure d&#x27;installation</a>
+                    </li>
+                    <li class="link ">
+                        <a href="additional-documentation/environnement-technique.html" data-type="entity-link" data-context-id="additional">Environnement technique</a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#xs-modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="xs-modules-links"
+                >
+                    <li class="link">
+                        <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+                                    >
+                                        <li class="link">
+                                            <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/AuthModule.html" data-type="entity-link">AuthModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/BooksModule.html" data-type="entity-link">BooksModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                        <li class="link">
+                                            <a href="components/CollectionPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">CollectionPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FindBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FindBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/SelectedBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">SelectedBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/ViewBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">ViewBookPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                    <span class="fa fa-fw fa-long-arrow-down"></span>
+                                    <span>Injectables</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+                                    >
+                                        <li class="link">
+                                            <a href="injectables/BookExistsGuard.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules"}>BookExistsGuard</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/ComponentsModule.html" data-type="entity-link">ComponentsModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/CoreModule.html" data-type="entity-link">CoreModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+                                    >
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/MaterialModule.html" data-type="entity-link">MaterialModule</a>
+                    </li>
+                    <li class="link">
+                        <a href="modules/PipesModule.html" data-type="entity-link">PipesModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+                                    >
+                                    <span class="fa fa-fw fa-plus"></span>
+                                    <span>Pipes</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+                                    >
+                                        <li class="link">
+                                            <a href="pipes/AddCommasPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AddCommasPipe</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="pipes/EllipsisPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">EllipsisPipe</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/RootAuthModule.html" data-type="entity-link">RootAuthModule</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#xs-components-links"
+                        >
+                        <span class="fa fa-fw fa-cogs"></span>
+                        <span>Components</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="xs-components-links"
+                        >
+                            <li class="link">
+                                <a href="components/AppComponent.html" data-type="entity-link">AppComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookAuthorsComponent.html" data-type="entity-link">BookAuthorsComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookDetailComponent.html" data-type="entity-link">BookDetailComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewComponent.html" data-type="entity-link">BookPreviewComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewListComponent.html" data-type="entity-link">BookPreviewListComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookSearchComponent.html" data-type="entity-link">BookSearchComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/LayoutComponent.html" data-type="entity-link">LayoutComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NavItemComponent.html" data-type="entity-link">NavItemComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NotFoundPageComponent.html" data-type="entity-link">NotFoundPageComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/SidenavComponent.html" data-type="entity-link">SidenavComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/ToolbarComponent.html" data-type="entity-link">ToolbarComponent</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-classes-links"
+                >
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-classes-links"
+                >
+                    <li class="link">
+                        <a href="classes/AddBook.html" data-type="entity-link">AddBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookFail.html" data-type="entity-link">AddBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookSuccess.html" data-type="entity-link">AddBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CloseSidenav.html" data-type="entity-link">CloseSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CustomRouterStateSerializer.html" data-type="entity-link">CustomRouterStateSerializer</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadFail.html" data-type="entity-link">LoadFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadSuccess.html" data-type="entity-link">LoadSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Login.html" data-type="entity-link">Login</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginFailure.html" data-type="entity-link">LoginFailure</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginRedirect.html" data-type="entity-link">LoginRedirect</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginSuccess.html" data-type="entity-link">LoginSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Logout.html" data-type="entity-link">Logout</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/OpenSidenav.html" data-type="entity-link">OpenSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBook.html" data-type="entity-link">RemoveBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookFail.html" data-type="entity-link">RemoveBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookSuccess.html" data-type="entity-link">RemoveBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Search.html" data-type="entity-link">Search</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchComplete.html" data-type="entity-link">SearchComplete</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchError.html" data-type="entity-link">SearchError</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Select.html" data-type="entity-link">Select</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#xs-injectables-links"
+                        >
+                        <span class="fa fa-fw fa-long-arrow-down"></span>
+                        <span>Injectables</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="xs-injectables-links"
+                        >
+                            <li class="link">
+                                <a href="injectables/AuthEffects.html" data-type="entity-link">AuthEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthGuard.html" data-type="entity-link">AuthGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthService.html" data-type="entity-link">AuthService</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookEffects.html" data-type="entity-link">BookEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookExistsGuard.html" data-type="entity-link">BookExistsGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/CollectionEffects.html" data-type="entity-link">CollectionEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/GoogleBooksService.html" data-type="entity-link">GoogleBooksService</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-interfaces-links"
+                >
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-interfaces-links"
+                >
+                    <li class="link">
+                        <a href="interfaces/AuthState.html" data-type="entity-link">AuthState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Authenticate.html" data-type="entity-link">Authenticate</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Book.html" data-type="entity-link">Book</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/BooksState.html" data-type="entity-link">BooksState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/RouterStateUrl.html" data-type="entity-link">RouterStateUrl</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/User.html" data-type="entity-link">User</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-miscellaneous-links"
+                >
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-miscellaneous-links"
+                >
+                    <li class="link">
+                      <a href="miscellaneous/enumerations.html" data-type="entity-link">Enums</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/functions.html" data-type="entity-link">Functions</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                            <img data-src="images/compodoc-vectorise.svg" class="img-responsive" data-type="compodoc-logo">
+                </a>
+        </li>
+
+    </ul>
+
+</nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">NGRX</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                            <a href="changelog.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="contributing.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="license.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#additional-pages"
+>
+                <span class="fa fa-fw fa-book"></span>
+                <span>Additional documentation</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="additional-pages"
+>
+                    <li class="link ">
+                        <a href="additional-documentation/procédure-d&#x27;installation.html" data-type="entity-link" data-context-id="additional">Procédure d&#x27;installation</a>
+                    </li>
+                    <li class="link ">
+                        <a href="additional-documentation/environnement-technique.html" data-type="entity-link" data-context-id="additional">Environnement technique</a>
+                    </li>
+            </ul>
+        </li>
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AppModule-db3436ce190a0473bb27ce48a693849c"
+>
+                                        <li class="link">
+                                            <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/AuthModule.html" data-type="entity-link">AuthModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AuthModule-9ceb99b940110e5732528139bb84c37d"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/BooksModule.html" data-type="entity-link">BooksModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                        <li class="link">
+                                            <a href="components/CollectionPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">CollectionPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FindBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FindBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/SelectedBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">SelectedBookPageComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/ViewBookPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">ViewBookPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                    <span class="fa fa-fw fa-long-arrow-down"></span>
+                                    <span>Injectables</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="injectables-links-module-BooksModule-fc73e442b8c25b00ec0fd74068794c65"
+>
+                                        <li class="link">
+                                            <a href="injectables/BookExistsGuard.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules"}>BookExistsGuard</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/ComponentsModule.html" data-type="entity-link">ComponentsModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-ComponentsModule-fb11608879826d2ce4b3131a3127dd6f"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/CoreModule.html" data-type="entity-link">CoreModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-CoreModule-0d1c59ebb9d975a1a5546097312eb027"
+>
+                                        <li class="link">
+                                            <a href="components/LoginFormComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginFormComponent</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/LoginPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">LoginPageComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/MaterialModule.html" data-type="entity-link">MaterialModule</a>
+                    </li>
+                    <li class="link">
+                        <a href="modules/PipesModule.html" data-type="entity-link">PipesModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+>
+                                    <span class="fa fa-fw fa-plus"></span>
+                                    <span>Pipes</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="pipes-links-module-PipesModule-5b91aaf086fe07ff808aa2b210b30de5"
+>
+                                        <li class="link">
+                                            <a href="pipes/AddCommasPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AddCommasPipe</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="pipes/EllipsisPipe.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">EllipsisPipe</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/RootAuthModule.html" data-type="entity-link">RootAuthModule</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#components-links"
+>
+                        <span class="fa fa-fw fa-cogs"></span>
+                        <span>Components</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="components-links"
+>
+                            <li class="link">
+                                <a href="components/AppComponent.html" data-type="entity-link">AppComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookAuthorsComponent.html" data-type="entity-link">BookAuthorsComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookDetailComponent.html" data-type="entity-link">BookDetailComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewComponent.html" data-type="entity-link">BookPreviewComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookPreviewListComponent.html" data-type="entity-link">BookPreviewListComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/BookSearchComponent.html" data-type="entity-link">BookSearchComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/LayoutComponent.html" data-type="entity-link">LayoutComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NavItemComponent.html" data-type="entity-link">NavItemComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/NotFoundPageComponent.html" data-type="entity-link">NotFoundPageComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/SidenavComponent.html" data-type="entity-link">SidenavComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/ToolbarComponent.html" data-type="entity-link">ToolbarComponent</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#classes-links"
+>
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="classes-links"
+>
+                    <li class="link">
+                        <a href="classes/AddBook.html" data-type="entity-link">AddBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookFail.html" data-type="entity-link">AddBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/AddBookSuccess.html" data-type="entity-link">AddBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CloseSidenav.html" data-type="entity-link">CloseSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/CustomRouterStateSerializer.html" data-type="entity-link">CustomRouterStateSerializer</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Load.html" data-type="entity-link">Load</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadFail.html" data-type="entity-link">LoadFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoadSuccess.html" data-type="entity-link">LoadSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Login.html" data-type="entity-link">Login</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginFailure.html" data-type="entity-link">LoginFailure</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginRedirect.html" data-type="entity-link">LoginRedirect</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/LoginSuccess.html" data-type="entity-link">LoginSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Logout.html" data-type="entity-link">Logout</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/OpenSidenav.html" data-type="entity-link">OpenSidenav</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBook.html" data-type="entity-link">RemoveBook</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookFail.html" data-type="entity-link">RemoveBookFail</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/RemoveBookSuccess.html" data-type="entity-link">RemoveBookSuccess</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Search.html" data-type="entity-link">Search</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchComplete.html" data-type="entity-link">SearchComplete</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/SearchError.html" data-type="entity-link">SearchError</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Select.html" data-type="entity-link">Select</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#injectables-links"
+>
+                        <span class="fa fa-fw fa-long-arrow-down"></span>
+                        <span>Injectables</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="injectables-links"
+>
+                            <li class="link">
+                                <a href="injectables/AuthEffects.html" data-type="entity-link">AuthEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthGuard.html" data-type="entity-link">AuthGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/AuthService.html" data-type="entity-link">AuthService</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookEffects.html" data-type="entity-link">BookEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/BookExistsGuard.html" data-type="entity-link">BookExistsGuard</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/CollectionEffects.html" data-type="entity-link">CollectionEffects</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/GoogleBooksService.html" data-type="entity-link">GoogleBooksService</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#interfaces-links"
+>
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="interfaces-links"
+>
+                    <li class="link">
+                        <a href="interfaces/AuthState.html" data-type="entity-link">AuthState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Authenticate.html" data-type="entity-link">Authenticate</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/Book.html" data-type="entity-link">Book</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/BooksState.html" data-type="entity-link">BooksState</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/RouterStateUrl.html" data-type="entity-link">RouterStateUrl</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/State.html" data-type="entity-link">State</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/User.html" data-type="entity-link">User</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="miscellaneous/enumerations.html" data-type="entity-link">Enums</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/functions.html" data-type="entity-link">Functions</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                            <img data-src="images/compodoc-vectorise.svg" class="img-responsive" data-type="compodoc-logo">
+                </a>
+        </li>
+
+    </ul>
+
+</nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<p><a name="6.0.1"></a></p>
+<h2 id="6-0-1-2018-05-23-"><a href="https://github.com/ngrx/platform/compare/6.0.0...6.0.1">6.0.1</a> (2018-05-23)</h2>
+<p><a name="6.0.0"></a></p>
+<h1 id="6-0-0-2018-05-23-"><a href="https://github.com/ngrx/platform/compare/v6.0.0-beta.3...6.0.0">6.0.0</a> (2018-05-23)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Schematics:</strong> remove ts extension when importing reducer in container (<a href="https://github.com/ngrx/platform/issues/1061">#1061</a>) (<a href="https://github.com/ngrx/platform/commit/d1ed9e5">d1ed9e5</a>), closes <a href="https://github.com/ngrx/platform/issues/1056">#1056</a></li>
+<li><strong>Schematics:</strong> Update parsed path logic to split path and name (<a href="https://github.com/ngrx/platform/commit/a1e9530">a1e9530</a>), closes <a href="https://github.com/ngrx/platform/issues/1064">#1064</a></li>
+<li><strong>Store:</strong> Resolve environment path when generating a new store (<a href="https://github.com/ngrx/platform/issues/1071">#1071</a>) (<a href="https://github.com/ngrx/platform/commit/599cfb6">599cfb6</a>)</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li>implement ng add for store and effects packages (<a href="https://github.com/ngrx/platform/commit/db94db7">db94db7</a>)</li>
+</ul>
+<p><a name="6.0.0-beta.3"></a></p>
+<h1 id="6-0-0-beta-3-2018-05-12-"><a href="https://github.com/ngrx/platform/compare/v6.0.0-beta.2...v6.0.0-beta.3">6.0.0-beta.3</a> (2018-05-12)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>build:</strong> Use default build for schematics (<a href="https://github.com/ngrx/platform/issues/1057">#1057</a>) (<a href="https://github.com/ngrx/platform/commit/355b12f">355b12f</a>)</li>
+</ul>
+<p><a name="6.0.0-beta.2"></a></p>
+<h1 id="6-0-0-beta-2-2018-05-11-"><a href="https://github.com/ngrx/platform/compare/v6.0.0-beta.1...v6.0.0-beta.2">6.0.0-beta.2</a> (2018-05-11)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>Update minimum node version to 8.9.0 (<a href="https://github.com/ngrx/platform/issues/989">#989</a>) (<a href="https://github.com/ngrx/platform/commit/0baaad8">0baaad8</a>)</li>
+<li><strong>build:</strong> Fix UMD global names (<a href="https://github.com/ngrx/platform/issues/1005">#1005</a>) (<a href="https://github.com/ngrx/platform/commit/413efd4">413efd4</a>), closes <a href="https://github.com/ngrx/platform/issues/1004">#1004</a></li>
+<li><strong>RouterStore:</strong> Reset dispatch-tracking booleans after navigation end (<a href="https://github.com/ngrx/platform/issues/968">#968</a>) (<a href="https://github.com/ngrx/platform/commit/48305aa">48305aa</a>)</li>
+<li><strong>Schematics:</strong> Add check for app/lib to project helper function (<a href="https://github.com/ngrx/platform/commit/5942885">5942885</a>)</li>
+<li><strong>Schematics:</strong> Add smart default to blueprint schemas (<a href="https://github.com/ngrx/platform/commit/cdd247e">cdd247e</a>)</li>
+<li><strong>Schematics:</strong> Remove aliases for state and stateInterface options (<a href="https://github.com/ngrx/platform/commit/f4520a2">f4520a2</a>)</li>
+<li><strong>Schematics:</strong> Update upsert actions for entity blueprint (<a href="https://github.com/ngrx/platform/issues/1042">#1042</a>) (<a href="https://github.com/ngrx/platform/commit/0d1d309">0d1d309</a>), closes <a href="https://github.com/ngrx/platform/issues/1039">#1039</a></li>
+<li><strong>Schematics:</strong> Upgrade schematics to new CLI structure (<a href="https://github.com/ngrx/platform/commit/b99d9ff">b99d9ff</a>)</li>
+<li><strong>Store:</strong> Fix type annotations for select methods (<a href="https://github.com/ngrx/platform/issues/953">#953</a>) (<a href="https://github.com/ngrx/platform/commit/4d74bd2">4d74bd2</a>)</li>
+<li><strong>StoreDevtools:</strong> Refresh devtools when extension is started (<a href="https://github.com/ngrx/platform/issues/1017">#1017</a>) (<a href="https://github.com/ngrx/platform/commit/c6e33d9">c6e33d9</a>), closes <a href="https://github.com/ngrx/platform/issues/508">#508</a></li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Schematics:</strong> Rename default action type for action blueprint (<a href="https://github.com/ngrx/platform/issues/1047">#1047</a>) (<a href="https://github.com/ngrx/platform/commit/4c4e6a9">4c4e6a9</a>), closes <a href="https://github.com/ngrx/platform/issues/1040">#1040</a></li>
+<li><strong>Store:</strong> Add support ng update (<a href="https://github.com/ngrx/platform/issues/1032">#1032</a>) (<a href="https://github.com/ngrx/platform/commit/5b4f067">5b4f067</a>)</li>
+<li>Add ng update support to ngrx packages (<a href="https://github.com/ngrx/platform/issues/1053">#1053</a>) (<a href="https://github.com/ngrx/platform/commit/4f91e9e">4f91e9e</a>)</li>
+</ul>
+<h3 id="breaking-changes">BREAKING CHANGES</h3>
+<ul>
+<li><strong>Schematics:</strong> The action blueprint has been updated to be less generic, with associated reducer and effects updated for the feature blueprint</li>
+</ul>
+<p>BEFORE:</p>
+<p>export enum UserActionTypes {
+UserAction = &#39;[User] Action&#39;
+}</p>
+<p>export class User implements Action {
+readonly type = UserActionTypes.UserAction;
+}</p>
+<p>export type UserActions = User;</p>
+<p>AFTER:</p>
+<p>export enum UserActionTypes {
+LoadUsers = &#39;[User] Load Users&#39;
+}</p>
+<p>export class LoadUsers implements Action {
+readonly type = UserActionTypes.LoadUsers;
+}</p>
+<p>export type UserActions = LoadUsers;</p>
+<ul>
+<li><strong>Schematics:</strong> Aliases for <code>state</code> and <code>stateInterface</code> were removed due to conflicts with component aliases without reasonable alternatives.</li>
+<li><strong>Schematics:</strong> Minimum dependency for @ngrx/schematics has changed:</li>
+</ul>
+<p>@angular-devkit/core: ^0.5.0
+@angular-devkit/schematics: ^0.5.0</p>
+<p><a name="6.0.0-beta.1"></a></p>
+<h1 id="6-0-0-beta-1-2018-04-02-"><a href="https://github.com/ngrx/platform/compare/v6.0.0-beta.0...v6.0.0-beta.1">6.0.0-beta.1</a> (2018-04-02)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>Declare global NgRx packages for UMD bundles (<a href="https://github.com/ngrx/platform/issues/952">#952</a>) (<a href="https://github.com/ngrx/platform/commit/ba2139d">ba2139d</a>), closes <a href="https://github.com/ngrx/platform/issues/949">#949</a></li>
+</ul>
+<p><a name="6.0.0-beta.0"></a></p>
+<h1 id="6-0-0-beta-0-2018-03-31-"><a href="https://github.com/ngrx/platform/compare/v5.2.0...v6.0.0-beta.0">6.0.0-beta.0</a> (2018-03-31)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>Add support for Angular 6 and RxJS 6 (<a href="https://github.com/ngrx/platform/commit/d1286d2">d1286d2</a>)</li>
+<li><strong>Entity:</strong> Change EntityAdapter upsertOne/upsertMany to accept an entity (<a href="https://github.com/ngrx/platform/commit/a0f45ff">a0f45ff</a>)</li>
+<li><strong>RouterStore:</strong> Allow strict mode with router reducer (<a href="https://github.com/ngrx/platform/issues/903">#903</a>) (<a href="https://github.com/ngrx/platform/commit/f17a032">f17a032</a>)</li>
+<li><strong>RouterStore:</strong> change the default serializer to work around cycles in RouterStateSnapshot (<a href="https://github.com/ngrx/platform/commit/7917a27">7917a27</a>)</li>
+<li><strong>RouterStore:</strong> Replace RouterStateSnapshot with SerializedRouterStateSnapshot (<a href="https://github.com/ngrx/platform/commit/bd415a1">bd415a1</a>)</li>
+<li><strong>StoreDevtools:</strong> pass timestamp to actions (<a href="https://github.com/ngrx/platform/commit/df2411f">df2411f</a>)</li>
+<li><strong>StoreDevtools:</strong> report errors to ErrorHandler instead of console (<a href="https://github.com/ngrx/platform/commit/32df3f0">32df3f0</a>)</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Schematcis:</strong> Extend from <a href="https://github.com/schematics">@schematics</a>/angular (<a href="https://github.com/ngrx/platform/commit/0e17aad">0e17aad</a>)</li>
+<li><strong>Schematics:</strong> Add support for custom store interface name (<a href="https://github.com/ngrx/platform/issues/810">#810</a>) (<a href="https://github.com/ngrx/platform/commit/1352d83">1352d83</a>)</li>
+</ul>
+<h3 id="breaking-changes">BREAKING CHANGES</h3>
+<ul>
+<li><strong>StoreDevtools:</strong> Errors in reducers are no longer hidden from ErrorHandler by
+StoreDevtools</li>
+</ul>
+<p>BEFORE:</p>
+<p>Errors in reducers are caught by StoreDevtools and logged to the console</p>
+<p>AFTER:</p>
+<p>Errors in reducers are reported to ErrorHandler</p>
+<ul>
+<li><strong>Schematcis:</strong> NgRx Schematics now has a minimum version dependency on @angular-devkit/core
+and @angular-devkit/schematics of v0.4.0.</li>
+<li><strong>RouterStore:</strong> Default router state is serialized to a shape that removes cycles</li>
+</ul>
+<p>BEFORE:</p>
+<p>Full RouterStateSnapshot is returned</p>
+<p>AFTER:</p>
+<p>Router state snapshot is returned as a SerializedRouterStateSnapshot with cyclical dependencies removed</p>
+<ul>
+<li><p><strong>Entity:</strong> The signature of the upsertOne/upsertMany functions in the EntityAdapter
+has been changed to accept a fully qualified entity instead of an update
+object that implements the Update<T> interface.</p>
+<p>Before:</p>
+<div><pre class="line-numbers"><code class="language-none">entityAdapter.upsertOne({
+  id: &#39;Entity ID&#39;,
+  changes: { id: &#39;Entity ID&#39;, name: &#39;Entity Name&#39; },
+}, state);</code></pre></div><p>After:</p>
+<div><pre class="line-numbers"><code class="language-none">entityAdapter.upsertOne({
+  id: &#39;Entity ID&#39;,
+  name: &#39;Entity Name&#39;,
+}, state);</code></pre></div></li>
+<li><p>NgRx now has a minimum version requirement on Angular 6 and RxJS 6.</p>
+</li>
+</ul>
+<p><a name="5.2.0"></a></p>
+<h1 id="5-2-0-2018-03-07-"><a href="https://github.com/ngrx/platform/compare/v5.1.0...v5.2.0">5.2.0</a> (2018-03-07)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Schematics:</strong> Correct usage of upsert actions for entity blueprint (<a href="https://github.com/ngrx/platform/issues/821">#821</a>) (<a href="https://github.com/ngrx/platform/commit/1ffb5a9">1ffb5a9</a>)</li>
+<li><strong>Store:</strong> only default to initialValue when store value is undefined (<a href="https://github.com/ngrx/platform/issues/886">#886</a>) (<a href="https://github.com/ngrx/platform/commit/51a1547">51a1547</a>)</li>
+<li><strong>StoreDevtools:</strong> Fix bug when exporting/importing state history (<a href="https://github.com/ngrx/platform/issues/855">#855</a>) (<a href="https://github.com/ngrx/platform/commit/a5dcdb1">a5dcdb1</a>)</li>
+<li><strong>StoreDevtools:</strong> Recompute state history when reducers are updated (<a href="https://github.com/ngrx/platform/issues/844">#844</a>) (<a href="https://github.com/ngrx/platform/commit/10debcc">10debcc</a>)</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Entity:</strong> Add &#39;selectId&#39; and &#39;sortComparer&#39; to state adapter (<a href="https://github.com/ngrx/platform/issues/889">#889</a>) (<a href="https://github.com/ngrx/platform/commit/69a62f2">69a62f2</a>)</li>
+<li><strong>Store:</strong> Added feature name to Update Reducers action (<a href="https://github.com/ngrx/platform/commit/730361e">730361e</a>)</li>
+</ul>
+<p><a name="5.1.0"></a></p>
+<h1 id="5-1-0-2018-02-13-"><a href="https://github.com/ngrx/platform/compare/v5.0.1...v5.1.0">5.1.0</a> (2018-02-13)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Devtools:</strong> Ensure Store is loaded eagerly (<a href="https://github.com/ngrx/platform/issues/801">#801</a>) (<a href="https://github.com/ngrx/platform/commit/ecf1ebf">ecf1ebf</a>), closes <a href="https://github.com/ngrx/platform/issues/624">#624</a> <a href="https://github.com/ngrx/platform/issues/741">#741</a></li>
+<li><strong>Effects:</strong> Make ofType operator strictFunctionTypes safe (<a href="https://github.com/ngrx/platform/issues/789">#789</a>) (<a href="https://github.com/ngrx/platform/commit/c8560e4">c8560e4</a>), closes <a href="https://github.com/ngrx/platform/issues/753">#753</a></li>
+<li><strong>Entity:</strong> Avoid for..in iteration in sorted state adapter (<a href="https://github.com/ngrx/platform/issues/805">#805</a>) (<a href="https://github.com/ngrx/platform/commit/4192645">4192645</a>)</li>
+<li><strong>Entity:</strong> Do not add Array.prototype properties to store (<a href="https://github.com/ngrx/platform/issues/782">#782</a>) (<a href="https://github.com/ngrx/platform/commit/d537758">d537758</a>), closes <a href="https://github.com/ngrx/platform/issues/781">#781</a></li>
+<li><strong>Entity:</strong> Properly iterate over array in upsert (<a href="https://github.com/ngrx/platform/issues/802">#802</a>) (<a href="https://github.com/ngrx/platform/commit/779d689">779d689</a>)</li>
+<li><strong>Schematics:</strong> Add store import to container blueprint (<a href="https://github.com/ngrx/platform/issues/763">#763</a>) (<a href="https://github.com/ngrx/platform/commit/a140fa9">a140fa9</a>), closes <a href="https://github.com/ngrx/platform/issues/760">#760</a></li>
+<li><strong>Schematics:</strong> Remove extra braces from constructor for container blueprint (<a href="https://github.com/ngrx/platform/issues/791">#791</a>) (<a href="https://github.com/ngrx/platform/commit/945bf40">945bf40</a>), closes <a href="https://github.com/ngrx/platform/issues/778">#778</a></li>
+<li><strong>Schematics:</strong> Use correct paths for nested and grouped feature blueprint (<a href="https://github.com/ngrx/platform/issues/756">#756</a>) (<a href="https://github.com/ngrx/platform/commit/c219770">c219770</a>)</li>
+<li><strong>StoreDevtools:</strong> Add internal support for ActionSanitizer and StateSanitizer (<a href="https://github.com/ngrx/platform/issues/795">#795</a>) (<a href="https://github.com/ngrx/platform/commit/a7de2a6">a7de2a6</a>)</li>
+<li><strong>StoreDevtools:</strong> Do not send full liftedState for application actions (<a href="https://github.com/ngrx/platform/issues/790">#790</a>) (<a href="https://github.com/ngrx/platform/commit/c11504f">c11504f</a>)</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Entity:</strong> Add upsertOne and upsertMany functions to entity adapters (<a href="https://github.com/ngrx/platform/issues/780">#780</a>) (<a href="https://github.com/ngrx/platform/commit/f871540">f871540</a>), closes <a href="https://github.com/ngrx/platform/issues/421">#421</a></li>
+<li><strong>Schematics:</strong> Add group option to entity blueprint (<a href="https://github.com/ngrx/platform/issues/792">#792</a>) (<a href="https://github.com/ngrx/platform/commit/0429276">0429276</a>), closes <a href="https://github.com/ngrx/platform/issues/779">#779</a></li>
+<li><strong>Schematics:</strong> Add upsert methods to entity blueprint (<a href="https://github.com/ngrx/platform/issues/809">#809</a>) (<a href="https://github.com/ngrx/platform/commit/7acdc79">7acdc79</a>), closes <a href="https://github.com/ngrx/platform/issues/592">#592</a></li>
+</ul>
+<p><a name="5.0.1"></a></p>
+<h2 id="5-0-1-2018-01-25-"><a href="https://github.com/ngrx/platform/compare/v5.0.0...v5.0.1">5.0.1</a> (2018-01-25)</h2>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Effects:</strong> Provide instance from actions to ofType lettable operator (<a href="https://github.com/ngrx/platform/issues/751">#751</a>) (<a href="https://github.com/ngrx/platform/commit/33d48e7">33d48e7</a>), closes <a href="https://github.com/ngrx/platform/issues/739">#739</a></li>
+</ul>
+<p><a name="5.0.0"></a></p>
+<h1 id="5-0-0-2018-01-22-"><a href="https://github.com/ngrx/platform/compare/v4.1.1...v5.0.0">5.0.0</a> (2018-01-22)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Effects:</strong> Ensure Store modules are loaded eagerly (<a href="https://github.com/ngrx/platform/issues/658">#658</a>) (<a href="https://github.com/ngrx/platform/commit/0a3398d">0a3398d</a>), closes <a href="https://github.com/ngrx/platform/issues/642">#642</a></li>
+<li><strong>Effects:</strong> Remove toPayload utility function (<a href="https://github.com/ngrx/platform/issues/738">#738</a>) (<a href="https://github.com/ngrx/platform/commit/b390ef5">b390ef5</a>)</li>
+<li><strong>Entity:</strong> updateOne/updateMany should not change ids state on existing entity (<a href="https://github.com/ngrx/platform/issues/581">#581</a>) (<a href="https://github.com/ngrx/platform/commit/b989e4b">b989e4b</a>), closes <a href="https://github.com/ngrx/platform/issues/571">#571</a></li>
+<li><strong>RouterStore:</strong> Fix usage of config object if provided (<a href="https://github.com/ngrx/platform/issues/575">#575</a>) (<a href="https://github.com/ngrx/platform/commit/4125914">4125914</a>)</li>
+<li><strong>RouterStore:</strong> Match RouterAction type parameters (<a href="https://github.com/ngrx/platform/issues/562">#562</a>) (<a href="https://github.com/ngrx/platform/commit/980a653">980a653</a>)</li>
+<li><strong>Schematics:</strong> Add group folder after feature name folder (<a href="https://github.com/ngrx/platform/issues/737">#737</a>) (<a href="https://github.com/ngrx/platform/commit/317fb94">317fb94</a>)</li>
+<li><strong>Schematics:</strong> Add handling of flat option to entity blueprint (<a href="https://github.com/ngrx/platform/commit/fb8d2c6">fb8d2c6</a>)</li>
+<li><strong>Schematics:</strong> Distinguish between root and feature effect arrays when registering (<a href="https://github.com/ngrx/platform/issues/718">#718</a>) (<a href="https://github.com/ngrx/platform/commit/95ff6c8">95ff6c8</a>)</li>
+<li><strong>Schematics:</strong> Don&#39;t add state import if not provided (<a href="https://github.com/ngrx/platform/issues/697">#697</a>) (<a href="https://github.com/ngrx/platform/commit/e5c2aed">e5c2aed</a>)</li>
+<li><strong>Schematics:</strong> Make variable naming consistent for entity blueprint (<a href="https://github.com/ngrx/platform/issues/716">#716</a>) (<a href="https://github.com/ngrx/platform/commit/765b15a">765b15a</a>)</li>
+<li><strong>Store:</strong> Compose provided metareducers for a feature reducer (<a href="https://github.com/ngrx/platform/issues/704">#704</a>) (<a href="https://github.com/ngrx/platform/commit/1454620">1454620</a>), closes <a href="https://github.com/ngrx/platform/issues/701">#701</a></li>
+<li><strong>StoreDevtools:</strong> Only recompute current state when reducers are updated (<a href="https://github.com/ngrx/platform/issues/570">#570</a>) (<a href="https://github.com/ngrx/platform/commit/247ae1a">247ae1a</a>), closes <a href="https://github.com/ngrx/platform/issues/229">#229</a> <a href="https://github.com/ngrx/platform/issues/487">#487</a></li>
+<li><strong>typo:</strong> update login error to use correct css font color property (<a href="https://github.com/ngrx/platform/commit/41723fc">41723fc</a>)</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Effects:</strong> Add lettable ofType operator (<a href="https://github.com/ngrx/platform/commit/d5e1814">d5e1814</a>)</li>
+<li><strong>ErrorHandler:</strong> Use the Angular ErrorHandler for reporting errors (<a href="https://github.com/ngrx/platform/issues/667">#667</a>) (<a href="https://github.com/ngrx/platform/commit/8f297d1">8f297d1</a>), closes <a href="https://github.com/ngrx/platform/issues/626">#626</a></li>
+<li><strong>material:</strong> Upgrade <a href="https://github.com/angular">@angular</a>/material to v 2.0.0-beta.12 (<a href="https://github.com/ngrx/platform/issues/482">#482</a>) (<a href="https://github.com/ngrx/platform/commit/aedf20e">aedf20e</a>), closes <a href="https://github.com/ngrx/platform/issues/448">#448</a></li>
+<li><strong>Schematics:</strong> Add alias for container, store and action blueprints (<a href="https://github.com/ngrx/platform/issues/685">#685</a>) (<a href="https://github.com/ngrx/platform/commit/dc64ac9">dc64ac9</a>)</li>
+<li><strong>Schematics:</strong> Add alias for reducer blueprint (<a href="https://github.com/ngrx/platform/issues/684">#684</a>) (<a href="https://github.com/ngrx/platform/commit/ea98fb7">ea98fb7</a>)</li>
+<li><strong>Schematics:</strong> Add effect to registered effects array (<a href="https://github.com/ngrx/platform/issues/717">#717</a>) (<a href="https://github.com/ngrx/platform/commit/f1082fe">f1082fe</a>)</li>
+<li><strong>Schematics:</strong> Add option to group feature blueprints in respective folders (<a href="https://github.com/ngrx/platform/issues/736">#736</a>) (<a href="https://github.com/ngrx/platform/commit/b82c35d">b82c35d</a>)</li>
+<li><strong>Schematics:</strong> Introduce <a href="https://github.com/ngrx">@ngrx</a>/schematics (<a href="https://github.com/ngrx/platform/issues/631">#631</a>) (<a href="https://github.com/ngrx/platform/commit/1837dba">1837dba</a>), closes <a href="https://github.com/ngrx/platform/issues/53">#53</a></li>
+<li><strong>Store:</strong> Add lettable select operator (<a href="https://github.com/ngrx/platform/commit/77eed24">77eed24</a>)</li>
+<li><strong>Store:</strong> Add support for generating custom createSelector functions (<a href="https://github.com/ngrx/platform/issues/734">#734</a>) (<a href="https://github.com/ngrx/platform/commit/cb0d185">cb0d185</a>), closes <a href="https://github.com/ngrx/platform/issues/478">#478</a> <a href="https://github.com/ngrx/platform/issues/724">#724</a></li>
+<li><strong>StoreDevtools:</strong> Add option to configure extension in log-only mode (<a href="https://github.com/ngrx/platform/issues/712">#712</a>) (<a href="https://github.com/ngrx/platform/commit/1ecd658">1ecd658</a>), closes <a href="https://github.com/ngrx/platform/issues/643">#643</a> <a href="https://github.com/ngrx/platform/issues/374">#374</a></li>
+<li><strong>StoreDevtools:</strong> Add support for custom instance name (<a href="https://github.com/ngrx/platform/issues/517">#517</a>) (<a href="https://github.com/ngrx/platform/commit/00be3d1">00be3d1</a>), closes <a href="https://github.com/ngrx/platform/issues/463">#463</a></li>
+<li><strong>StoreDevtools:</strong> Add support for extension sanitizers (<a href="https://github.com/ngrx/platform/issues/544">#544</a>) (<a href="https://github.com/ngrx/platform/commit/6ed92b0">6ed92b0</a>), closes <a href="https://github.com/ngrx/platform/issues/494">#494</a></li>
+<li><strong>StoreDevtools:</strong> Add support for jumping to a specific action (<a href="https://github.com/ngrx/platform/issues/703">#703</a>) (<a href="https://github.com/ngrx/platform/commit/b9f6442">b9f6442</a>), closes <a href="https://github.com/ngrx/platform/issues/681">#681</a></li>
+</ul>
+<h3 id="breaking-changes">BREAKING CHANGES</h3>
+<ul>
+<li><p><strong>Effects:</strong> The utility function <code>toPayload</code>, deprecated in @ngrx/effects v4.0, has been removed.</p>
+<p>Before:</p>
+<div><pre class="line-numbers"><code class="language-ts">import { toPayload } from &#39;&#64;ngrx/effects&#39;;
+
+actions$.ofType(&#39;SOME_ACTION&#39;).map(toPayload);</code></pre></div><p>After:</p>
+<div><pre class="line-numbers"><code class="language-ts">actions$
+  .ofType(&#39;SOME_ACTION&#39;)
+  .map((action: SomeActionWithPayload) =&gt; action.payload);</code></pre></div></li>
+<li><p><strong>ErrorHandler:</strong> The ErrorReporter has been replaced with ErrorHandler
+from angular/core.</p>
+</li>
+</ul>
+<p>BEFORE:</p>
+<p>Errors were reported to the ngrx/effects ErrorReporter. The
+ErrorReporter would log to the console by default.</p>
+<p>AFTER:</p>
+<p>Errors are now reported to the @angular/core ErrorHandler.</p>
+<ul>
+<li><strong>Store:</strong> Updates minimum version of RxJS dependency.</li>
+</ul>
+<p>BEFORE:</p>
+<p>Minimum peer dependency of RxJS ^5.0.0</p>
+<p>AFTER:</p>
+<p>Minimum peer dependency of RxJS ^5.5.0</p>
+<ul>
+<li><strong>Effects:</strong> Updates minimum version of RxJS dependency.</li>
+</ul>
+<p>BEFORE:</p>
+<p>Minimum peer dependency of RxJS ^5.0.0</p>
+<p>AFTER:</p>
+<p>Minimum peer dependency of RxJS ^5.5.0</p>
+<p><a name="4.1.1"></a></p>
+<h2 id="4-1-1-2017-11-07-"><a href="https://github.com/ngrx/platform/compare/v4.1.0...v4.1.1">4.1.1</a> (2017-11-07)</h2>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Entity:</strong> Fix type error for id selectors (<a href="https://github.com/ngrx/platform/issues/533">#533</a>) (<a href="https://github.com/ngrx/platform/commit/88f672c">88f672c</a>), closes <a href="https://github.com/ngrx/platform/issues/525">#525</a></li>
+<li>Add support for Angular 5 (<a href="https://github.com/ngrx/platform/commit/30a8c56">30a8c56</a>)</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Codegen:</strong> Add base code and build for <a href="https://github.com/ngrx">@ngrx</a>/codegen (<a href="https://github.com/ngrx/platform/issues/534">#534</a>) (<a href="https://github.com/ngrx/platform/commit/2a22211">2a22211</a>)</li>
+<li><strong>RouterStore:</strong> Add configurable option for router reducer name (<a href="https://github.com/ngrx/platform/issues/417">#417</a>) (<a href="https://github.com/ngrx/platform/commit/ab7de5c">ab7de5c</a>), closes <a href="https://github.com/ngrx/platform/issues/410">#410</a></li>
+</ul>
+<p><a name="4.1.0"></a></p>
+<h1 id="4-1-0-2017-10-19-"><a href="https://github.com/ngrx/platform/compare/v4.0.5...v4.1.0">4.1.0</a> (2017-10-19)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Build:</strong> Fix build with space in path (<a href="https://github.com/ngrx/platform/issues/331">#331</a>) (<a href="https://github.com/ngrx/platform/commit/257fc9d">257fc9d</a>)</li>
+<li><strong>combineSelectors:</strong> Remove default parameter from function signature for Closure (<a href="https://github.com/ngrx/platform/commit/ae7d5e1">ae7d5e1</a>)</li>
+<li><strong>decorator:</strong> add ExportDecoratedItems jsdoc for g3 (<a href="https://github.com/ngrx/platform/issues/456">#456</a>) (<a href="https://github.com/ngrx/platform/commit/2b0e0cf">2b0e0cf</a>)</li>
+<li><strong>Effects:</strong> Simplify decorator handling for Closure compatibility (<a href="https://github.com/ngrx/platform/commit/ad30d40">ad30d40</a>)</li>
+<li><strong>Entity:</strong> Change type for EntityState to interface (<a href="https://github.com/ngrx/platform/issues/454">#454</a>) (<a href="https://github.com/ngrx/platform/commit/d5640ec">d5640ec</a>), closes <a href="https://github.com/ngrx/platform/issues/458">#458</a></li>
+<li><strong>Example:</strong> Add missing import for catch operator (<a href="https://github.com/ngrx/platform/issues/409">#409</a>) (<a href="https://github.com/ngrx/platform/commit/193e8b3">193e8b3</a>)</li>
+<li><strong>RouterStore:</strong> Fix cancelled navigation with async guard (fixes <a href="https://github.com/ngrx/platform/issues/354">#354</a>) (<a href="https://github.com/ngrx/platform/issues/355">#355</a>) (<a href="https://github.com/ngrx/platform/commit/920c0ba">920c0ba</a>), closes <a href="https://github.com/ngrx/platform/issues/201">#201</a></li>
+<li><strong>RouterStore:</strong> Stringify error from navigation error event (<a href="https://github.com/ngrx/platform/issues/357">#357</a>) (<a href="https://github.com/ngrx/platform/commit/0528d2d">0528d2d</a>), closes <a href="https://github.com/ngrx/platform/issues/356">#356</a></li>
+<li><strong>Store:</strong> Fix typing for feature to accept InjectionToken (<a href="https://github.com/ngrx/platform/issues/375">#375</a>) (<a href="https://github.com/ngrx/platform/commit/38b2f95">38b2f95</a>)</li>
+<li><strong>Store:</strong> Refactor parameter initialization in combineReducers for Closure (<a href="https://github.com/ngrx/platform/commit/5c60cba">5c60cba</a>)</li>
+<li><strong>Store:</strong> Set initial value for state action pair to object (<a href="https://github.com/ngrx/platform/issues/480">#480</a>) (<a href="https://github.com/ngrx/platform/commit/100a8ef">100a8ef</a>), closes <a href="https://github.com/ngrx/platform/issues/477">#477</a></li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>createSelector:</strong> Expose projector function on selectors to improve testability (<a href="https://github.com/ngrx/platform/commit/56cb21f">56cb21f</a>), closes <a href="https://github.com/ngrx/platform/issues/290">#290</a></li>
+<li><strong>Effects:</strong> Add getEffectsMetadata() helper for verifying metadata (<a href="https://github.com/ngrx/platform/commit/628b865">628b865</a>), closes <a href="https://github.com/ngrx/platform/issues/491">#491</a></li>
+<li><strong>Effects:</strong> Add root effects init action (<a href="https://github.com/ngrx/platform/issues/473">#473</a>) (<a href="https://github.com/ngrx/platform/commit/838ba17">838ba17</a>), closes <a href="https://github.com/ngrx/platform/issues/246">#246</a></li>
+<li><strong>Entity:</strong> Add default selectId function for EntityAdapter (<a href="https://github.com/ngrx/platform/issues/405">#405</a>) (<a href="https://github.com/ngrx/platform/commit/2afb792">2afb792</a>)</li>
+<li><strong>Entity:</strong> Add support for string or number type for ID (<a href="https://github.com/ngrx/platform/issues/441">#441</a>) (<a href="https://github.com/ngrx/platform/commit/46d6f2f">46d6f2f</a>)</li>
+<li><strong>Entity:</strong> Enable creating entity selectors without composing a state selector (<a href="https://github.com/ngrx/platform/issues/490">#490</a>) (<a href="https://github.com/ngrx/platform/commit/aae4064">aae4064</a>)</li>
+<li><strong>Entity:</strong> Rename &#39;sort&#39; to &#39;sortComparer&#39; (<a href="https://github.com/ngrx/platform/commit/274554b">274554b</a>), closes <a href="https://github.com/ngrx/platform/issues/370">#370</a></li>
+<li><strong>Store:</strong> createSelector with an array of selectors (<a href="https://github.com/ngrx/platform/issues/340">#340</a>) (<a href="https://github.com/ngrx/platform/commit/2f6a035">2f6a035</a>), closes <a href="https://github.com/ngrx/platform/issues/192">#192</a></li>
+</ul>
+<p><a name="4.0.5"></a></p>
+<h2 id="4-0-5-2017-08-18-"><a href="https://github.com/ngrx/platform/compare/v4.0.4...v4.0.5">4.0.5</a> (2017-08-18)</h2>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Effects:</strong> Do not complete effects if one source errors or completes (<a href="https://github.com/ngrx/platform/issues/297">#297</a>) (<a href="https://github.com/ngrx/platform/commit/54747cf">54747cf</a>), closes <a href="https://github.com/ngrx/platform/issues/232">#232</a></li>
+<li><strong>Entity:</strong> Return a referentially equal state if state did not change (<a href="https://github.com/ngrx/platform/commit/fbd6a66">fbd6a66</a>)</li>
+<li><strong>Entity:</strong> Simplify target index finder for sorted entities (<a href="https://github.com/ngrx/platform/commit/335d255">335d255</a>)</li>
+</ul>
+<p><a name="4.0.4"></a></p>
+<h2 id="4-0-4-2017-08-17-"><a href="https://github.com/ngrx/platform/compare/v4.0.3...v4.0.4">4.0.4</a> (2017-08-17)</h2>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Effects:</strong> Use factory provide for console (<a href="https://github.com/ngrx/platform/issues/288">#288</a>) (<a href="https://github.com/ngrx/platform/commit/bf7f70c">bf7f70c</a>), closes <a href="https://github.com/ngrx/platform/issues/276">#276</a></li>
+<li><strong>RouterStore:</strong> Add generic type to RouterReducerState (<a href="https://github.com/ngrx/platform/issues/292">#292</a>) (<a href="https://github.com/ngrx/platform/commit/6da3ec5">6da3ec5</a>), closes <a href="https://github.com/ngrx/platform/issues/289">#289</a></li>
+<li><strong>RouterStore:</strong> Only serialize snapshot in preactivation hook (<a href="https://github.com/ngrx/platform/issues/287">#287</a>) (<a href="https://github.com/ngrx/platform/commit/bbb7c99">bbb7c99</a>), closes <a href="https://github.com/ngrx/platform/issues/286">#286</a></li>
+</ul>
+<p><a name="4.0.3"></a></p>
+<h2 id="4-0-3-2017-08-16-"><a href="https://github.com/ngrx/platform/compare/v4.0.2...v4.0.3">4.0.3</a> (2017-08-16)</h2>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>Effects:</strong> Deprecate toPayload utility function (<a href="https://github.com/ngrx/platform/issues/266">#266</a>) (<a href="https://github.com/ngrx/platform/commit/1cbb2c9">1cbb2c9</a>)</li>
+<li><strong>Effects:</strong> Ensure StoreModule is loaded before effects (<a href="https://github.com/ngrx/platform/issues/230">#230</a>) (<a href="https://github.com/ngrx/platform/commit/065d33e">065d33e</a>), closes <a href="https://github.com/ngrx/platform/issues/184">#184</a> <a href="https://github.com/ngrx/platform/issues/219">#219</a></li>
+<li><strong>Effects:</strong> Export EffectsNotification interface (<a href="https://github.com/ngrx/platform/issues/231">#231</a>) (<a href="https://github.com/ngrx/platform/commit/2b1a076">2b1a076</a>)</li>
+<li><strong>Store:</strong> Add type signature for metareducer (<a href="https://github.com/ngrx/platform/issues/270">#270</a>) (<a href="https://github.com/ngrx/platform/commit/57633d2">57633d2</a>), closes <a href="https://github.com/ngrx/platform/issues/264">#264</a> <a href="https://github.com/ngrx/platform/issues/170">#170</a></li>
+<li><strong>Store:</strong> Set initial state for feature modules (<a href="https://github.com/ngrx/platform/issues/235">#235</a>) (<a href="https://github.com/ngrx/platform/commit/4aec80c">4aec80c</a>), closes <a href="https://github.com/ngrx/platform/issues/206">#206</a> <a href="https://github.com/ngrx/platform/issues/233">#233</a></li>
+<li><strong>Store:</strong> Update usage of compose for reducer factory (<a href="https://github.com/ngrx/platform/issues/252">#252</a>) (<a href="https://github.com/ngrx/platform/commit/683013c">683013c</a>), closes <a href="https://github.com/ngrx/platform/issues/247">#247</a></li>
+<li><strong>Store:</strong> Use existing reducers when providing reducers without an InjectionToken (<a href="https://github.com/ngrx/platform/issues/254">#254</a>) (<a href="https://github.com/ngrx/platform/commit/c409252">c409252</a>), closes <a href="https://github.com/ngrx/platform/issues/250">#250</a> <a href="https://github.com/ngrx/platform/issues/116">#116</a></li>
+<li><strong>Store:</strong> Use injector to get reducers provided via InjectionTokens (<a href="https://github.com/ngrx/platform/issues/259">#259</a>) (<a href="https://github.com/ngrx/platform/commit/bd968fa">bd968fa</a>), closes <a href="https://github.com/ngrx/platform/issues/189">#189</a></li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>RouterStore:</strong> Add serializer for router state snapshot (<a href="https://github.com/ngrx/platform/issues/188">#188</a>) (<a href="https://github.com/ngrx/platform/commit/0fc1bcc">0fc1bcc</a>), closes <a href="https://github.com/ngrx/platform/issues/97">#97</a> <a href="https://github.com/ngrx/platform/issues/104">#104</a> <a href="https://github.com/ngrx/platform/issues/237">#237</a></li>
+</ul>
+<p><a name="4.0.2"></a></p>
+<h2 id="4-0-2-2017-08-02-"><a href="https://github.com/ngrx/platform/compare/v4.0.1...v4.0.2">4.0.2</a> (2017-08-02)</h2>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>createSelector:</strong> memoize projector function (<a href="https://github.com/ngrx/platform/issues/228">#228</a>) (<a href="https://github.com/ngrx/platform/commit/e2f1e57">e2f1e57</a>), closes <a href="https://github.com/ngrx/platform/issues/226">#226</a></li>
+<li><strong>docs:</strong> update angular-cli variable (<a href="https://github.com/ngrx/platform/commit/eeb7d5d">eeb7d5d</a>)</li>
+<li><strong>Docs:</strong> update effects description (<a href="https://github.com/ngrx/platform/issues/164">#164</a>) (<a href="https://github.com/ngrx/platform/commit/c77b2d9">c77b2d9</a>)</li>
+<li><strong>Effects:</strong> Wrap testing source in an Actions observable (<a href="https://github.com/ngrx/platform/issues/121">#121</a>) (<a href="https://github.com/ngrx/platform/commit/bfdb83b">bfdb83b</a>), closes <a href="https://github.com/ngrx/platform/issues/117">#117</a></li>
+<li><strong>RouterStore:</strong> Add support for cancellation with CanLoad guard (<a href="https://github.com/ngrx/platform/issues/223">#223</a>) (<a href="https://github.com/ngrx/platform/commit/2c006e8">2c006e8</a>), closes <a href="https://github.com/ngrx/platform/issues/213">#213</a></li>
+<li><strong>Store:</strong> Remove auto-memoization of selector functions (<a href="https://github.com/ngrx/platform/commit/90899f7">90899f7</a>), closes <a href="https://github.com/ngrx/platform/issues/118">#118</a></li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Effects:</strong> Add generic type to the &quot;ofType&quot; operator (<a href="https://github.com/ngrx/platform/commit/55c13b2">55c13b2</a>)</li>
+<li><strong>Platform:</strong> Introduce <a href="https://github.com/ngrx">@ngrx</a>/entity (<a href="https://github.com/ngrx/platform/issues/207">#207</a>) (<a href="https://github.com/ngrx/platform/commit/9bdfd70">9bdfd70</a>)</li>
+<li><strong>Store:</strong> Add injection token option for feature modules (<a href="https://github.com/ngrx/platform/issues/153">#153</a>) (<a href="https://github.com/ngrx/platform/commit/7f77693">7f77693</a>), closes <a href="https://github.com/ngrx/platform/issues/116">#116</a> <a href="https://github.com/ngrx/platform/issues/141">#141</a> <a href="https://github.com/ngrx/platform/issues/147">#147</a></li>
+<li><strong>Store:</strong> Added initial state function support for features. Added more tests (<a href="https://github.com/ngrx/platform/issues/85">#85</a>) (<a href="https://github.com/ngrx/platform/commit/5e5d7dd">5e5d7dd</a>)</li>
+</ul>
+<p><a name="4.0.1"></a></p>
+<h2 id="4-0-1-2017-07-18-"><a href="https://github.com/ngrx/platform/compare/v4.0.0...v4.0.1">4.0.1</a> (2017-07-18)</h2>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>effects:</strong> allow downleveled annotations (<a href="https://github.com/ngrx/platform/issues/98">#98</a>) (<a href="https://github.com/ngrx/platform/commit/875b326">875b326</a>), closes <a href="https://github.com/ngrx/platform/issues/93">#93</a></li>
+<li><strong>effects:</strong> make correct export path for testing module (<a href="https://github.com/ngrx/platform/issues/96">#96</a>) (<a href="https://github.com/ngrx/platform/commit/a5aad22">a5aad22</a>), closes <a href="https://github.com/ngrx/platform/issues/94">#94</a></li>
+</ul>
+<p><a name="4.0.0"></a></p>
+<h1 id="4-0-0-2017-07-18-"><a href="https://github.com/ngrx/platform/compare/68bd9df...v4.0.0">4.0.0</a> (2017-07-18)</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>build:</strong> Fixed deployment of latest master as commit (<a href="https://github.com/ngrx/platform/issues/18">#18</a>) (<a href="https://github.com/ngrx/platform/commit/5d0ecf9">5d0ecf9</a>)</li>
+<li><strong>build:</strong> Get tests running for each project (<a href="https://github.com/ngrx/platform/commit/c4a1054">c4a1054</a>)</li>
+<li><strong>build:</strong> Limit concurrency for lerna bootstrap (<a href="https://github.com/ngrx/platform/commit/7e7a7d8">7e7a7d8</a>)</li>
+<li><strong>Devtools:</strong> Removed SHOULD_INSTRUMENT token used to eagerly inject providers (<a href="https://github.com/ngrx/platform/issues/57">#57</a>) (<a href="https://github.com/ngrx/platform/commit/b90df34">b90df34</a>)</li>
+<li><strong>Effects:</strong> Start child effects after running root effects (<a href="https://github.com/ngrx/platform/issues/43">#43</a>) (<a href="https://github.com/ngrx/platform/commit/931adb1">931adb1</a>)</li>
+<li><strong>Effects:</strong> Use Actions generic type for the return of the ofType operator (<a href="https://github.com/ngrx/platform/commit/d176a11">d176a11</a>)</li>
+<li><strong>Example:</strong> Fix Book State interface parent (<a href="https://github.com/ngrx/platform/issues/90">#90</a>) (<a href="https://github.com/ngrx/platform/commit/6982952">6982952</a>)</li>
+<li><strong>example-app:</strong> Suppress StoreDevtoolsConfig compiler warning (<a href="https://github.com/ngrx/platform/commit/8804156">8804156</a>)</li>
+<li><strong>omit:</strong> Strengthen the type checking of the omit utility function (<a href="https://github.com/ngrx/platform/commit/3982038">3982038</a>)</li>
+<li><strong>router-store:</strong> NavigationCancel and NavigationError creates a cycle when used with routerReducer (<a href="https://github.com/ngrx/platform/commit/a085730">a085730</a>), closes <a href="https://github.com/ngrx/platform/issues/68">#68</a></li>
+<li><strong>Store:</strong> Exported initial state tokens (<a href="https://github.com/ngrx/platform/issues/65">#65</a>) (<a href="https://github.com/ngrx/platform/commit/4b27b6d">4b27b6d</a>)</li>
+<li><strong>Store:</strong> pass all required arguments to projector (<a href="https://github.com/ngrx/platform/issues/74">#74</a>) (<a href="https://github.com/ngrx/platform/commit/9b82b3a">9b82b3a</a>)</li>
+<li><strong>Store:</strong> Remove parameter destructuring for strict mode (<a href="https://github.com/ngrx/platform/issues/33">#33</a>) (<a href="https://github.com/ngrx/platform/issues/77">#77</a>) (<a href="https://github.com/ngrx/platform/commit/c9d6a45">c9d6a45</a>)</li>
+<li><strong>Store:</strong> Removed readonly from type (<a href="https://github.com/ngrx/platform/issues/72">#72</a>) (<a href="https://github.com/ngrx/platform/commit/68274c9">68274c9</a>)</li>
+<li><strong>StoreDevtools:</strong> Type InjectionToken for AOT compilation (<a href="https://github.com/ngrx/platform/commit/e21d688">e21d688</a>)</li>
+</ul>
+<h3 id="code-refactoring">Code Refactoring</h3>
+<ul>
+<li><strong>Effects:</strong> Simplified AP, added better error reporting and effects stream control (<a href="https://github.com/ngrx/platform/commit/015107f">015107f</a>)</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>build:</strong> Updated build pipeline for modules (<a href="https://github.com/ngrx/platform/commit/68bd9df">68bd9df</a>)</li>
+<li><strong>Effects:</strong> Ensure effects are only subscribed to once (<a href="https://github.com/ngrx/platform/commit/089abdc">089abdc</a>)</li>
+<li><strong>Effects:</strong> Introduce new Effects testing module (<a href="https://github.com/ngrx/platform/issues/70">#70</a>) (<a href="https://github.com/ngrx/platform/commit/7dbb571">7dbb571</a>)</li>
+<li><strong>router-store:</strong> Added action types (<a href="https://github.com/ngrx/platform/issues/47">#47</a>) (<a href="https://github.com/ngrx/platform/commit/1f67cb3">1f67cb3</a>), closes <a href="https://github.com/ngrx/platform/issues/44">#44</a></li>
+<li><strong>store:</strong> Add &#39;createSelector&#39; and &#39;createFeatureSelector&#39; utils (<a href="https://github.com/ngrx/platform/issues/10">#10</a>) (<a href="https://github.com/ngrx/platform/commit/41758b1">41758b1</a>)</li>
+<li><strong>Store:</strong> Allow initial state function for AoT compatibility (<a href="https://github.com/ngrx/platform/issues/59">#59</a>) (<a href="https://github.com/ngrx/platform/commit/1a166ec">1a166ec</a>), closes <a href="https://github.com/ngrx/platform/issues/51">#51</a></li>
+<li><strong>Store:</strong> Allow parent modules to provide reducers with tokens (<a href="https://github.com/ngrx/platform/issues/36">#36</a>) (<a href="https://github.com/ngrx/platform/commit/069b12f">069b12f</a>), closes <a href="https://github.com/ngrx/platform/issues/34">#34</a></li>
+<li><strong>Store:</strong> Simplify API for adding meta-reducers (<a href="https://github.com/ngrx/platform/issues/87">#87</a>) (<a href="https://github.com/ngrx/platform/commit/d2295c7">d2295c7</a>)</li>
+</ul>
+<h3 id="breaking-changes">BREAKING CHANGES</h3>
+<ul>
+<li><strong>Effects:</strong> Effects API for registering effects has been updated to allow for multiple classes to be provided.</li>
+</ul>
+<p>BEFORE:</p>
+<div><pre class="line-numbers"><code class="language-ts">&#64;NgModule({
+  imports: [EffectsModule.run(SourceA), EffectsModule.run(SourceB)],
+})
+export class AppModule {}</code></pre></div><p>AFTER:</p>
+<div><pre class="line-numbers"><code class="language-ts">&#64;NgModule({
+  imports: [EffectsModule.forRoot([SourceA, SourceB, SourceC])],
+})
+export class AppModule {}
+
+&#64;NgModule({
+  imports: [
+    EffectsModule.forFeature([FeatureSourceA, FeatureSourceB, FeatureSourceC]),
+  ],
+})
+export class SomeFeatureModule {}</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+        <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'getting-started';
+            var COMPODOC_CURRENT_PAGE_URL = 'changelog.html';
+        </script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+
+    </body>
+</html>
